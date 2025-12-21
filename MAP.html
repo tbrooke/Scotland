@@ -1,178 +1,231 @@
-<!-- Add to <head> section -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
-<!-- Add this section in the body -->
-<section class="map-section">
-    <h2>Our Journey Through Scotland</h2>
-    <p class="intro-text">Follow our route from Edinburgh to the Highlands and back</p>
-    <div id="map"></div>
-    <div class="map-legend">
-        <h3>Legend</h3>
-        <div class="legend-item">
-            <span class="marker golf">⛳</span> Golf Courses
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trip Map | Scotland Golf Adventure 2026</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <section class="map-section">
+                <h2>Our Journey Through Scotland</h2>
+                <p class="intro-text">
+                    Follow our route from Edinburgh to the Highlands and back
+                </p>
+                <div id="map"></div>
+                <div class="map-legend">
+                    <h3>Legend</h3>
+                    <div class="legend-item">
+                        <span class="marker golf">⛳</span> Golf Courses
+                    </div>
+                    <div class="legend-item">
+                        <span class="marker whisky">🥃</span> Distilleries
+                    </div>
+                    <div class="legend-item">
+                        <span class="marker castle">🏰</span> Castles & Sights
+                    </div>
+                    <div class="legend-item">
+                        <span class="marker accommodation">🏨</span> Overnight
+                        Stops
+                    </div>
+                    <div class="legend-item">
+                        <span class="line route">━━━</span> Our Route
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="legend-item">
-            <span class="marker whisky">🥃</span> Distilleries
-        </div>
-        <div class="legend-item">
-            <span class="marker castle">🏰</span> Castles & Sights
-        </div>
-        <div class="legend-item">
-            <span class="marker accommodation">🏨</span> Overnight Stops
-        </div>
-        <div class="legend-item">
-            <span class="line route">━━━</span> Our Route
-        </div>
-    </div>
-</section>
 
-<!-- Add before closing </body> tag -->
-<script>
-    // Initialize map centered on Scotland
-    var map = L.map('map').setView([56.4907, -4.2026], 7);
+        <footer>
+            <p>
+                🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Golf Adventure 2026 •
+                <a href="index.html">Back to Home</a>
+            </p>
+        </footer>
 
-    // Add OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors',
-        maxZoom: 19
-    }).addTo(map);
+        <script>
+            // Initialize map centered on Scotland
+            var map = L.map("map").setView([56.4907, -4.2026], 7);
 
-    // Define custom icons
-    var golfIcon = L.divIcon({
-        html: '<div class="custom-marker golf">⛳</div>',
-        className: 'custom-div-icon',
-        iconSize: [30, 30]
-    });
+            // Add OpenStreetMap tiles
+            L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                attribution: "© OpenStreetMap contributors",
+                maxZoom: 19,
+            }).addTo(map);
 
-    var whiskyIcon = L.divIcon({
-        html: '<div class="custom-marker whisky">🥃</div>',
-        className: 'custom-div-icon',
-        iconSize: [30, 30]
-    });
+            // Define custom icons
+            var golfIcon = L.divIcon({
+                html: '<div class="custom-marker golf">⛳</div>',
+                className: "custom-div-icon",
+                iconSize: [30, 30],
+            });
 
-    var castleIcon = L.divIcon({
-        html: '<div class="custom-marker castle">🏰</div>',
-        className: 'custom-div-icon',
-        iconSize: [30, 30]
-    });
+            var whiskyIcon = L.divIcon({
+                html: '<div class="custom-marker whisky">🥃</div>',
+                className: "custom-div-icon",
+                iconSize: [30, 30],
+            });
 
-    var hotelIcon = L.divIcon({
-        html: '<div class="custom-marker hotel">🏨</div>',
-        className: 'custom-div-icon',
-        iconSize: [30, 30]
-    });
+            var castleIcon = L.divIcon({
+                html: '<div class="custom-marker castle">🏰</div>',
+                className: "custom-div-icon",
+                iconSize: [30, 30],
+            });
 
-    // Day 1-2: Edinburgh & North Berwick
-    var edinburgh = L.marker([55.9533, -3.1883], {icon: castleIcon})
-        .bindPopup('<b>Edinburgh Airport</b><br>Day 1: Arrival')
-        .addTo(map);
+            var hotelIcon = L.divIcon({
+                html: '<div class="custom-marker hotel">🏨</div>',
+                className: "custom-div-icon",
+                iconSize: [30, 30],
+            });
 
-    var northBerwick = L.marker([56.0596, -2.7209], {icon: hotelIcon})
-        .bindPopup('<b>North Berwick</b><br>Days 1-2: Accommodation<br>Recovery & exploration')
-        .addTo(map);
+            // Day 1-2: Edinburgh & North Berwick
+            var edinburgh = L.marker([55.9533, -3.1883], { icon: castleIcon })
+                .bindPopup("<b>Edinburgh Airport</b><br>Day 1: Arrival")
+                .addTo(map);
 
-    var dirleTon = L.marker([56.0427, -2.7779], {icon: castleIcon})
-        .bindPopup('<b>Dirleton Castle</b><br>Day 2: Sightseeing')
-        .addTo(map);
+            var northBerwick = L.marker([56.0596, -2.7209], { icon: hotelIcon })
+                .bindPopup(
+                    "<b>North Berwick</b><br>Days 1-2: Accommodation<br>Recovery & exploration",
+                )
+                .addTo(map);
 
-    // Day 3: Gullane
-    var gullane = L.marker([56.0370, -2.8296], {icon: golfIcon})
-        .bindPopup('<b>Gullane Golf Club</b><br>Day 3: First round!<br>#2 or #3 Course<br>£60-90')
-        .addTo(map);
+            var dirleTon = L.marker([56.0427, -2.7779], { icon: castleIcon })
+                .bindPopup("<b>Dirleton Castle</b><br>Day 2: Sightseeing")
+                .addTo(map);
 
-    // Day 4: Crail
-    var crail = L.marker([56.2556, -2.6291], {icon: golfIcon})
-        .bindPopup('<b>Crail Balcomie Links</b><br>Day 4: Round 2<br>7th oldest club (1786)<br>£60-85')
-        .addTo(map);
+            // Day 3: Gullane
+            var gullane = L.marker([56.037, -2.8296], { icon: golfIcon })
+                .bindPopup(
+                    "<b>Gullane Golf Club</b><br>Day 3: First round!<br>#2 or #3 Course<br>£60-90",
+                )
+                .addTo(map);
 
-    var crailTown = L.marker([56.2556, -2.6291], {icon: hotelIcon})
-        .bindPopup('<b>Crail</b><br>Day 3: Overnight<br>Charming fishing village')
-        .addTo(map);
+            // Day 4: Crail
+            var crail = L.marker([56.2556, -2.6291], { icon: golfIcon })
+                .bindPopup(
+                    "<b>Crail Balcomie Links</b><br>Day 4: Round 2<br>7th oldest club (1786)<br>£60-85",
+                )
+                .addTo(map);
 
-    // Day 4-7: St Andrews
-    var stAndrews = L.marker([56.3398, -2.7967], {icon: golfIcon})
-        .bindPopup('<b>St Andrews</b><br>Days 6-7: The Home of Golf<br>Old Course lottery attempts!<br>Castle, Jubilee, or Eden backups')
-        .addTo(map);
+            var crailTown = L.marker([56.2556, -2.6291], { icon: hotelIcon })
+                .bindPopup(
+                    "<b>Crail</b><br>Day 3: Overnight<br>Charming fishing village",
+                )
+                .addTo(map);
 
-    var stAndrewsHotel = L.marker([56.3398, -2.7967], {icon: hotelIcon})
-        .bindPopup('<b>St Andrews</b><br>Days 4-7: Accommodation (3 nights)')
-        .addTo(map);
+            // Day 4-7: St Andrews
+            var stAndrews = L.marker([56.3398, -2.7967], { icon: golfIcon })
+                .bindPopup(
+                    "<b>St Andrews</b><br>Days 6-7: The Home of Golf<br>Old Course lottery attempts!<br>Castle, Jubilee, or Eden backups",
+                )
+                .addTo(map);
 
-    var stAndrewsCathedral = L.marker([56.3410, -2.7915], {icon: castleIcon})
-        .bindPopup('<b>St Andrews Cathedral</b><br>Day 5: Ruins & history')
-        .addTo(map);
+            var stAndrewsHotel = L.marker([56.3398, -2.7967], {
+                icon: hotelIcon,
+            })
+                .bindPopup(
+                    "<b>St Andrews</b><br>Days 4-7: Accommodation (3 nights)",
+                )
+                .addTo(map);
 
-    // East Neuk Villages
-    var anstruther = L.marker([56.2226, -2.6997], {icon: castleIcon})
-        .bindPopup('<b>Anstruther</b><br>Day 5: Best fish & chips!<br>East Neuk fishing village')
-        .addTo(map);
+            var stAndrewsCathedral = L.marker([56.341, -2.7915], {
+                icon: castleIcon,
+            })
+                .bindPopup(
+                    "<b>St Andrews Cathedral</b><br>Day 5: Ruins & history",
+                )
+                .addTo(map);
 
-    // Day 8: Highlands
-    var boatOfGarten = L.marker([57.2444, -3.7986], {icon: golfIcon})
-        .bindPopup('<b>Boat of Garten Golf Club</b><br>Day 8: Highland golf<br>Cairngorms setting<br>£50-70')
-        .addTo(map);
+            // East Neuk Villages
+            var anstruther = L.marker([56.2226, -2.6997], { icon: castleIcon })
+                .bindPopup(
+                    "<b>Anstruther</b><br>Day 5: Best fish & chips!<br>East Neuk fishing village",
+                )
+                .addTo(map);
 
-    var grantownOnSpey = L.marker([57.3278, -3.6075], {icon: golfIcon})
-        .bindPopup('<b>Grantown-on-Spey GC</b><br>Alternative Highland course<br>£45-65')
-        .addTo(map);
+            // Day 8: Highlands
+            var boatOfGarten = L.marker([57.2444, -3.7986], { icon: golfIcon })
+                .bindPopup(
+                    "<b>Boat of Garten Golf Club</b><br>Day 8: Highland golf<br>Cairngorms setting<br>£50-70",
+                )
+                .addTo(map);
 
-    var aviemore = L.marker([57.1952, -3.8263], {icon: hotelIcon})
-        .bindPopup('<b>Aviemore/Grantown</b><br>Day 8: Highland accommodation')
-        .addTo(map);
+            var grantownOnSpey = L.marker([57.3278, -3.6075], {
+                icon: golfIcon,
+            })
+                .bindPopup(
+                    "<b>Grantown-on-Spey GC</b><br>Alternative Highland course<br>£45-65",
+                )
+                .addTo(map);
 
-    // Distilleries
-    var glenlivet = L.marker([57.3019, -3.3283], {icon: whiskyIcon})
-        .bindPopup('<b>The Glenlivet Distillery</b><br>Day 8 option: Speyside whisky<br>£15-25')
-        .addTo(map);
+            var aviemore = L.marker([57.1952, -3.8263], { icon: hotelIcon })
+                .bindPopup(
+                    "<b>Aviemore/Grantown</b><br>Day 8: Highland accommodation",
+                )
+                .addTo(map);
 
-    var dalwhinnie = L.marker([56.9358, -4.2447], {icon: whiskyIcon})
-        .bindPopup('<b>Dalwhinnie Distillery</b><br>Day 8 option: Highest in Scotland<br>£15-25')
-        .addTo(map);
+            // Distilleries
+            var glenlivet = L.marker([57.3019, -3.3283], { icon: whiskyIcon })
+                .bindPopup(
+                    "<b>The Glenlivet Distillery</b><br>Day 8 option: Speyside whisky<br>£15-25",
+                )
+                .addTo(map);
 
-    var blairAthol = L.marker([56.7016, -3.7401], {icon: whiskyIcon})
-        .bindPopup('<b>Blair Athol Distillery</b><br>Day 9: Gateway to Highlands<br>£15-25')
-        .addTo(map);
+            var dalwhinnie = L.marker([56.9358, -4.2447], { icon: whiskyIcon })
+                .bindPopup(
+                    "<b>Dalwhinnie Distillery</b><br>Day 8 option: Highest in Scotland<br>£15-25",
+                )
+                .addTo(map);
 
-    var pitlochry = L.marker([56.7026, -3.7350], {icon: castleIcon})
-        .bindPopup('<b>Pitlochry</b><br>Day 9: Highland town<br>Lunch stop')
-        .addTo(map);
+            var blairAthol = L.marker([56.7016, -3.7401], { icon: whiskyIcon })
+                .bindPopup(
+                    "<b>Blair Athol Distillery</b><br>Day 9: Gateway to Highlands<br>£15-25",
+                )
+                .addTo(map);
 
-    // Optional: Stirling Castle
-    var stirling = L.marker([56.1165, -3.9369], {icon: castleIcon})
-        .bindPopup('<b>Stirling Castle</b><br>Day 8 or 9: Optional stop')
-        .addTo(map);
+            var pitlochry = L.marker([56.7026, -3.735], { icon: castleIcon })
+                .bindPopup(
+                    "<b>Pitlochry</b><br>Day 9: Highland town<br>Lunch stop",
+                )
+                .addTo(map);
 
-    // Draw the route
-    var route = [
-        [55.9533, -3.1883],  // Edinburgh Airport
-        [56.0596, -2.7209],  // North Berwick
-        [56.0370, -2.8296],  // Gullane
-        [56.2556, -2.6291],  // Crail
-        [56.3398, -2.7967],  // St Andrews
-        [56.2226, -2.6997],  // Anstruther (loop)
-        [56.3398, -2.7967],  // Back to St Andrews
-        [57.2444, -3.7986],  // Boat of Garten
-        [57.3019, -3.3283],  // Glenlivet area
-        [56.7016, -3.7401],  // Pitlochry
-        [56.1165, -3.9369],  // Stirling (optional)
-        [55.9533, -3.1883]   // Back to Edinburgh
-    ];
+            // Optional: Stirling Castle
+            var stirling = L.marker([56.1165, -3.9369], { icon: castleIcon })
+                .bindPopup(
+                    "<b>Stirling Castle</b><br>Day 8 or 9: Optional stop",
+                )
+                .addTo(map);
 
-    var polyline = L.polyline(route, {
-        color: '#1e3a5f',
-        weight: 3,
-        opacity: 0.7,
-        dashArray: '10, 5'
-    }).addTo(map);
+            // Draw the route
+            var route = [
+                [55.9533, -3.1883], // Edinburgh Airport
+                [56.0596, -2.7209], // North Berwick
+                [56.037, -2.8296], // Gullane
+                [56.2556, -2.6291], // Crail
+                [56.3398, -2.7967], // St Andrews
+                [56.2226, -2.6997], // Anstruther (loop)
+                [56.3398, -2.7967], // Back to St Andrews
+                [57.2444, -3.7986], // Boat of Garten
+                [57.3019, -3.3283], // Glenlivet area
+                [56.7016, -3.7401], // Pitlochry
+                [56.1165, -3.9369], // Stirling (optional)
+                [55.9533, -3.1883], // Back to Edinburgh
+            ];
 
-    // Fit map to show entire route
-    map.fitBounds(polyline.getBounds(), {padding: [50, 50]});
+            var polyline = L.polyline(route, {
+                color: "#1e3a5f",
+                weight: 3,
+                opacity: 0.7,
+                dashArray: "10, 5",
+            }).addTo(map);
 
-    // Add distance markers (optional)
-    var distances = [
-        {point: [56.0596, -2.7209], text: '40 min from airport'},
-        {point: [56.3398, -2.7967], text: '1 hr from Gullane'},
-        {point: [57.2444, -3.7986], text: '2.5 hrs from St Andrews'}
-    ];
-</script>
+            // Fit map to show entire route
+            map.fitBounds(polyline.getBounds(), { padding: [50, 50] });
+        </script>
+    </body>
+</html>
