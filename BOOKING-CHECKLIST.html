@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Flight Bookings | Scotland Golf Adventure 2026</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <style>
+            .flight-header {
+                background: #1e3a5f;
+                color: white;
+                padding: 2rem 0;
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+
+            .flight-header h1 {
+                font-size: 2.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .flight-route {
+                font-size: 1.3rem;
+                opacity: 0.9;
+            }
+
+            .flight-grid {
+                display: grid;
+                gap: 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 2rem;
+            }
+
+            .flight-card {
+                background: white;
+                border-radius: 15px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                padding: 2rem;
+                border-left: 5px solid #1e3a5f;
+                transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+            }
+
+            .flight-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            }
+
+            .flight-card.best-option {
+                border-left-color: #28a745;
+                background: linear-gradient(135deg, #f8fff8 0%, #ffffff 100%);
+            }
+
+            .flight-card.best-option::before {
+                content: "⭐ RECOMMENDED";
+                position: absolute;
+                top: -10px;
+                right: 20px;
+                background: #28a745;
+                color: white;
+                padding: 0.5rem 1rem;
+                border-radius: 20px;
+                font-size: 0.8rem;
+                font-weight: bold;
+            }
+
+            .flight-card.best-option {
+                position: relative;
+            }
+
+            .flight-header-info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 1.5rem;
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            .flight-time {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #1e3a5f;
+            }
+
+            .flight-arrow {
+                color: #666;
+                font-size: 1rem;
+            }
+
+            .flight-price {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #1e3a5f;
+                background: #f0f4f8;
+                padding: 0.5rem 1rem;
+                border-radius: 8px;
+            }
+
+            .flight-details {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .detail-item {
+                display: flex;
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+
+            .detail-label {
+                font-size: 0.9rem;
+                color: #666;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+
+            .detail-value {
+                font-weight: bold;
+                color: #2c3e50;
+            }
+
+            .stops-info {
+                background: #f8f9fa;
+                padding: 1rem;
+                border-radius: 8px;
+                margin-top: 1rem;
+            }
+
+            .stops-info h4 {
+                color: #1e3a5f;
+                margin-bottom: 0.5rem;
+                font-size: 1rem;
+            }
+
+            .connection {
+                font-size: 0.9rem;
+                color: #666;
+                margin: 0.25rem 0;
+            }
+
+            .aircraft {
+                color: #888;
+                font-size: 0.85rem;
+            }
+
+            .warnings {
+                background: #fff3cd;
+                border: 1px solid #ffeaa7;
+                border-radius: 6px;
+                padding: 0.75rem;
+                margin-top: 1rem;
+            }
+
+            .warning-item {
+                font-size: 0.85rem;
+                color: #856404;
+                margin: 0.25rem 0;
+            }
+
+            .trip-summary {
+                background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
+                color: white;
+                padding: 3rem;
+                border-radius: 15px;
+                text-align: center;
+                margin: 3rem 0;
+            }
+
+            .trip-summary h2 {
+                color: white;
+                margin-bottom: 1.5rem;
+            }
+
+            .summary-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 2rem;
+                margin-top: 2rem;
+            }
+
+            .summary-item {
+                text-align: center;
+            }
+
+            .summary-item h3 {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .summary-item p {
+                opacity: 0.9;
+            }
+
+            .nav-links {
+                text-align: center;
+                margin: 3rem 0;
+            }
+
+            .nav-btn {
+                display: inline-block;
+                background: #1e3a5f;
+                color: white;
+                padding: 1rem 2rem;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: bold;
+                margin: 0.5rem;
+                transition: background 0.3s ease;
+            }
+
+            .nav-btn:hover {
+                background: #2c5282;
+            }
+
+            @media (max-width: 768px) {
+                .flight-header h1 {
+                    font-size: 2rem;
+                }
+
+                .flight-header-info {
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                .flight-details {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flight-header">
+            <div class="container">
+                <h1>✈️ Flight Options</h1>
+                <p class="flight-route">Charlotte, NC → Edinburgh, Scotland</p>
+                <p>Thursday, July 16, 2026</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <section class="intro">
+                <h2>Outbound Flights</h2>
+                <p class="big-text">
+                    American Airlines flights from Charlotte (CLT) to Edinburgh
+                    (EDI)
+                </p>
+            </section>
+
+            <div class="flight-grid">
+                <!-- Best Option Flight -->
+                <div class="flight-card best-option">
+                    <div class="flight-header-info">
+                        <div class="flight-time">
+                            <span>5:17 PM</span>
+                            <span class="flight-arrow">→</span>
+                            <span>8:30 AM+1</span>
+                        </div>
+                        <div class="flight-price">$918</div>
+                    </div>
+
+                    <div class="flight-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Duration</span>
+                            <span class="detail-value">10h 13m</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Stops</span>
+                            <span class="detail-value">1 stop</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Arrives</span>
+                            <span class="detail-value">July 17</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Airlines</span>
+                            <span class="detail-value">American Airlines</span>
+                        </div>
+                    </div>
+
+                    <div class="stops-info">
+                        <h4>Flight Details:</h4>
+                        <div class="connection">
+                            CLT → JFK (New York) - AA 657
+                            <span class="aircraft">Airbus A319</span>
+                        </div>
+                        <div class="connection">
+                            JFK → EDI (Edinburgh) - AA 82
+                            <span class="aircraft">Airbus A321XLR</span>
+                        </div>
+                    </div>
+
+                    <div class="warnings">
+                        <div class="warning-item">⚠️ Overnight flight</div>
+                        <div class="warning-item">
+                            💺 Service class availability may vary
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alternative Options -->
+                <div class="flight-card">
+                    <div class="flight-header-info">
+                        <div class="flight-time">
+                            <span>4:55 PM</span>
+                            <span class="flight-arrow">→</span>
+                            <span>8:30 AM+1</span>
+                        </div>
+                        <div class="flight-price">$858</div>
+                    </div>
+
+                    <div class="flight-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Duration</span>
+                            <span class="detail-value">10h 35m</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Stops</span>
+                            <span class="detail-value">1 stop</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Arrives</span>
+                            <span class="detail-value">July 17</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Airlines</span>
+                            <span class="detail-value">American Airlines</span>
+                        </div>
+                    </div>
+
+                    <div class="stops-info">
+                        <h4>Flight Details:</h4>
+                        <div class="connection">
+                            CLT → DUB (Dublin) - AA 724
+                            <span class="aircraft">Boeing 777</span>
+                        </div>
+                        <div class="connection">
+                            DUB → EDI (Edinburgh)
+                            <span class="aircraft"
+                                >Operated by Emerald Airlines</span
+                            >
+                        </div>
+                    </div>
+
+                    <div class="warnings">
+                        <div class="warning-item">⚠️ Overnight flight</div>
+                        <div class="warning-item">
+                            💺 Economy only on some flights
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flight-card">
+                    <div class="flight-header-info">
+                        <div class="flight-time">
+                            <span>3:29 PM</span>
+                            <span class="flight-arrow">→</span>
+                            <span>7:10 AM+1</span>
+                        </div>
+                        <div class="flight-price">$918</div>
+                    </div>
+
+                    <div class="flight-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Duration</span>
+                            <span class="detail-value">10h 41m</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Stops</span>
+                            <span class="detail-value">1 stop</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Arrives</span>
+                            <span class="detail-value">July 17</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Airlines</span>
+                            <span class="detail-value">American Airlines</span>
+                        </div>
+                    </div>
+
+                    <div class="stops-info">
+                        <h4>Flight Details:</h4>
+                        <div class="connection">
+                            CLT → PHL (Philadelphia) - AA 1838
+                            <span class="aircraft">Boeing 737</span>
+                        </div>
+                        <div class="connection">
+                            PHL → EDI (Edinburgh) - AA 278
+                            <span class="aircraft">Boeing 787</span>
+                        </div>
+                    </div>
+
+                    <div class="warnings">
+                        <div class="warning-item">⚠️ Overnight flight</div>
+                        <div class="warning-item">
+                            🚶 Terminal change required
+                        </div>
+                        <div class="warning-item">
+                            💺 Service class availability may vary
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flight-card">
+                    <div class="flight-header-info">
+                        <div class="flight-time">
+                            <span>2:35 PM</span>
+                            <span class="flight-arrow">→</span>
+                            <span>7:10 AM+1</span>
+                        </div>
+                        <div class="flight-price">$813</div>
+                    </div>
+
+                    <div class="flight-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Duration</span>
+                            <span class="detail-value">11h 35m</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Stops</span>
+                            <span class="detail-value">2 stops</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Arrives</span>
+                            <span class="detail-value">July 17</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Airlines</span>
+                            <span class="detail-value">American Airlines</span>
+                        </div>
+                    </div>
+
+                    <div class="stops-info">
+                        <h4>Flight Details:</h4>
+                        <div class="connection">
+                            CLT → ROA (Roanoke) - AA 5898
+                            <span class="aircraft"
+                                >Embraer ERJ-145 (American Eagle)</span
+                            >
+                        </div>
+                        <div class="connection">
+                            ROA → PHL (Philadelphia) - AA 5894
+                            <span class="aircraft"
+                                >Embraer ERJ-145 (American Eagle)</span
+                            >
+                        </div>
+                        <div class="connection">
+                            PHL → EDI (Edinburgh) - AA 278
+                            <span class="aircraft">Boeing 787</span>
+                        </div>
+                    </div>
+
+                    <div class="warnings">
+                        <div class="warning-item">⚠️ Overnight flight</div>
+                        <div class="warning-item">
+                            🚶 Terminal changes required
+                        </div>
+                        <div class="warning-item">⏰ Note connection times</div>
+                        <div class="warning-item">
+                            💺 Economy only on some flights
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trip-summary">
+                <h2>Trip Summary</h2>
+                <p>Your Scotland Golf Adventure flight options</p>
+                <div class="summary-grid">
+                    <div class="summary-item">
+                        <h3>🗓️ Departure</h3>
+                        <p>Thursday, July 16, 2026<br />Charlotte, NC (CLT)</p>
+                    </div>
+                    <div class="summary-item">
+                        <h3>🏴󠁧󠁢󠁳󠁣󠁴󠁿 Arrival</h3>
+                        <p>
+                            Friday, July 17, 2026<br />Edinburgh, Scotland (EDI)
+                        </p>
+                    </div>
+                    <div class="summary-item">
+                        <h3>💰 Price Range</h3>
+                        <p>$813 - $918<br />Round trip per person</p>
+                    </div>
+                    <div class="summary-item">
+                        <h3>⚡ Best Option</h3>
+                        <p>5:17 PM departure<br />1 stop via NYC</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="next-steps">
+                <h2>Next Steps</h2>
+                <p class="big-text">
+                    Ready to book your Scotland golf adventure?
+                </p>
+                <div class="nav-links">
+                    <a href="index.html" class="nav-btn">🏠 Trip Overview</a>
+                    <a href="ITINERARY.html" class="nav-btn"
+                        >📅 Detailed Itinerary</a
+                    >
+                    <a href="MAP.html" class="nav-btn">🗺️ Trip Map</a>
+                </div>
+            </section>
+
+            <section class="booking-notes">
+                <div class="quote">
+                    <blockquote>
+                        <p>
+                            <strong>Booking Tips:</strong><br />
+                            • All flights show overnight connections<br />
+                            • Premium cabin availability varies by flight<br />
+                            • Consider the 5:17 PM departure for best balance of
+                            time and convenience<br />
+                            • Book early for best seat selection
+                        </p>
+                    </blockquote>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>
+                ✈️ Scotland Golf Adventure 2026 • Flight Bookings •
+                <a href="https://www.aa.com" target="_blank">Book on AA.com</a>
+            </p>
+            <p class="small">
+                Questions? Create an
+                <a href="https://github.com/tbrooke/Scotland/issues">issue</a>
+                or discuss in the
+                <a href="https://github.com/tbrooke/Scotland/discussions"
+                    >discussions</a
+                >.
+            </p>
+        </footer>
+    </body>
+</html>
