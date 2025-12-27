@@ -8,7 +8,6 @@
 - **When:** July 16-24, 2026 (9 days)
 - **Where:** Scotland's Historic Links
 - **Golf:** 4-5 rounds (one per day max)
-- **Budget:** £1,910-3,055 per person
 
 ## Quick Links 
 
