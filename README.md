@@ -10,7 +10,7 @@
 - **Golf:** 4-5 rounds (one per day max)
 - **Budget:** £1,910-3,055 per person
 
-## Quick Links
+## Quick Links 
 
 - 🌐 [Trip Website](https://tbrooke.github.io/Scotland)
 - 📅 [Full Itinerary](https://tbrooke.github.io/Scotland/ITINERARY.html)
