@@ -4,7 +4,7 @@
 
 ## The Plan
 
-- **Who:** Dad (73) & Twin Sons (37)
+- **Who:** Dad (74) & Twin Sons (38)
 - **When:** July 16-24, 2026 (9 days)
 - **Where:** Scotland's Historic Links
 - **Golf:** 4-5 rounds (one per day max)
@@ -13,9 +13,8 @@
 ## Quick Links
 
 - 🌐 [Trip Website](https://tbrooke.github.io/Scotland)
-- 📅 [Full Itinerary](ITINERARY.md)
-- 💰 [Budget Breakdown](BUDGET.md)
-- ✅ [Booking Checklist](BOOKING-CHECKLIST.md)
+- 📅 [Full Itinerary](ITINERARY.html)
+- ✅ [Booking Checklist](BOOKING-CHECKLIST.html)
 - 📊 [Project Board](https://github.com/tbrooke/Scotland/projects)
 - 📚 [Trip Wiki](https://github.com/tbrooke/Scotland/wiki)
 
