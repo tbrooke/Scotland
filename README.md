@@ -16,7 +16,7 @@
 - 📅 [Full Itinerary](https://tbrooke.github.io/Scotland/ITINERARY.html)
 - ✅ [Booking Checklist](https://tbrooke.github.io/Scotland/BOOKING-CHECKLIST.html)
 - 📊 [Project Board](https://github.com/tbrooke/Scotland/projects)
-- 📚 [Trip Wiki](https://github.com/tbrooke/Scotland/wiki)
+
 
 ## Golf Courses
 
