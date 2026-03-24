@@ -1,8 +1,9 @@
-Day 1: Wednesday, July 16 - Arrival
+Day 1: Thursday, July 16 - Arrival
 "Welcome to Scotland!"
+✈️ FLIGHT BOOKED: AA724 via Dublin → Edinburgh, arrives 12:55 PM (Conf: FNLSDB)
 Afternoon:
 
-Arrive Edinburgh Airport
+Arrive Edinburgh Airport 12:55 PM
 Pick up rental car
 Drive to North Berwick (40 min)
 Check into seaside accommodation
@@ -59,14 +60,12 @@ Pints at The Dunvegan Hotel (golf memorabilia everywhere)
 
 Why no golf? Save energy for tomorrow's St Andrews round + enjoy the sights
 
-Day 4: Saturday, July 19 - St Andrews Golf
-"Playing at the Home of Golf"
+Day 4: Sunday, July 19 - Dumbarnie Links
+"A stunning new links course"
 Morning:
-🏌️ St Andrews Options (we'll book what's available):
-OPTION A: Old Course via ballot (if we get lucky!)
-OPTION B: Castle Course (£95) - spectacular clifftop views
-OPTION C: Jubilee Course (£80) - locals' favorite
-OPTION D: Eden Course (£50) - classic links, great value
+🏌️ ✅ BOOKED: Dumbarnie Links - 09:20 tee time (Ref: 59655)
+Clive Clark design, opened 2020
+Spectacular Firth of Forth views, near Leven
 Afternoon:
 
 Lunch on the course or in town
@@ -172,31 +171,24 @@ Optional stop: Stirling Castle (if time/energy)
 Overnight near Edinburgh Airport
 
 
-Day 8: Wednesday, July 23 - Departure
+Day 8: Thursday, July 23 - Departure
 "Farewell to Scotland"
-TWO OPTIONS:
-OPTION A: Early Flight
+✈️ FLIGHTS BOOKED (Conf: FNLSDB):
+  Edinburgh → Dublin: 8:35 AM - 9:50 AM
+  Dublin → Charlotte: 11:45 AM - 3:10 PM
 
-Breakfast
-Edinburgh Airport
-Depart for home
+Early morning:
+  Up early - be at Edinburgh Airport by 6:30 AM
+  Return rental car
+  8:35 AM departure
 
-OPTION B: Late Afternoon/Evening Flight
-
-Leisurely breakfast
-NO GOLF - too rushed
-Visit Edinburgh Castle and Royal Mile (2-3 hours)
-Lunch in Edinburgh
-Airport by 2:00 PM
-Depart for home
-
-Recommendation: Book afternoon/evening flight so we're not rushed
+Arrive Charlotte 3:10 PM - Home!
 
 ⛳ GOLF SUMMARY
 Total Rounds: 4-5 (out of 8 days)
 ✅ Day 2: Gullane #2 or #3
 ❌ Day 3: NO GOLF - Sightseeing
-✅ Day 4: St Andrews (Castle/Jubilee/Eden/Old)
+✅ Day 4: Dumbarnie Links (BOOKED - 09:20)
 ✅ Day 5: Crail Balcomie Links
 ✅ Day 6: Carnoustie Burnside
 ✅ Day 7: Boat of Garten or Grantown

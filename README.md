@@ -5,7 +5,7 @@
 ## The Plan
 
 - **Who:** Dad (74) & Twin Sons (38)
-- **When:** July 16-24, 2026 (9 days)
+- **When:** July 16-23, 2026 (8 days)
 - **Where:** Scotland's Historic Links
 - **Golf:** 4-5 rounds (one per day max)
 
@@ -21,8 +21,9 @@
 
 1. **Gullane #2 or #3** (Day 3) - £60-90
 2. **Crail Balcomie Links** (Day 4) - £60-85
-3. **St Andrews** (Day 6-7) - Old Course lottery or backups
-4. **Boat of Garten or Grantown** (Day 8) - £45-70
+3. **Dumbarnie Links** (Day 4) - ✅ BOOKED 09:20, Ref: 59655
+4. **St Andrews** - Old Course lottery or backups
+5. **Boat of Garten or Grantown** (Day 8) - £45-70
 
 ## The Old Course Strategy
 
@@ -34,7 +35,7 @@
 
 ## Next Steps (January 2026)
 
-- [ ] Book flights
+- [x] Book flights (AA724 via Dublin, Conf: FNLSDB)
 - [ ] Reserve hotels
 - [ ] Book rental car
 - [ ] Reserve golf tee times
