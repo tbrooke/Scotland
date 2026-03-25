@@ -19,27 +19,41 @@
 
 ## Golf Courses
 
-1. **Gullane #2 or #3** (Day 3) - £60-90
-2. **Crail Balcomie Links** (Day 4) - £60-85
-3. **Dumbarnie Links** (Day 4) - ✅ BOOKED 09:20, Ref: 59655
-4. **St Andrews** - Old Course lottery or backups
-5. **Boat of Garten or Grantown** (Day 8) - £45-70
+1. **Gullane #2** (Fri Jul 17) - ✅ BOOKED 11:04 AM
+2. **St Andrews Old Course** (Sat Jul 18) - 🎰 Ballot dependent
+3. **Dumbarnie Links** (Sun Jul 19) - ✅ BOOKED 09:20, Ref: 59655
+4. **Crail Balcomie Links** (Mon Jul 20) - £60-85
+5. **Carnoustie Burnside** (Tue Jul 21) - £90-110
+6. **Boat of Garten or Grantown** (Wed Jul 22) - £45-70
 
 ## The Old Course Strategy
 
-🎰 **Two lottery attempts = ~70% odds!**
+🎰 **Two ballot attempts — Friday & Sunday evenings!**
 
-- Day 5: Check results for Day 7 play
-- Day 6: Check results for Day 8 play
-- Amazing backup courses if we don't get it
+- Sat Jul 18: Old Course if ballot wins, Edinburgh day with Alan if not
+- Enter ballot again Sun evening for Mon Jul 20 play
+- St Andrews is ~50 min from Edinburgh either way
 
-## Next Steps (January 2026)
+## Booking Status
 
-- [x] Book flights (AA724 via Dublin, Conf: FNLSDB)
-- [ ] Reserve hotels
-- [ ] Book rental car
-- [ ] Reserve golf tee times
-- [ ] Plan distillery visits
+✅ Confirmed:
+- [x] Flights — AA724 + return (Conf: FNLSDB)
+- [x] Edinburgh Airbnb — Castle Terrace, EH1 2DP — Nights 1–2 (Jul 16–18)
+- [x] Gullane Golf Club #2 — Fri Jul 17 — 11:04 AM
+- [x] Dumbarnie Links — Sun Jul 19 — 09:20 (Ref: 59655)
+- [x] St Andrews Airbnb — Nights 3–4 (Jul 18–20)
+
+○ Still Needed:
+- [ ] Carnoustie/Dundee accommodation — Night 5 (Jul 20)
+- [ ] Highland cottage — Nights 6–7 (Jul 21–22) — Aviemore or Grantown
+- [ ] Edinburgh Airport hotel — Night 7 (Jul 22)
+- [ ] Crail Balcomie tee time — Mon Jul 20 morning
+- [ ] Carnoustie Burnside tee time — Tue Jul 21 morning
+- [ ] Boat of Garten or Grantown tee time — Wed Jul 22
+
+◇ Ballot / Optional:
+- [ ] Old Course ballot — enter Fri Jul 17 evening and Sun Jul 19 evening
+- [ ] Blair Athol distillery — consider pre-booking
 
 ## Contributing
 
