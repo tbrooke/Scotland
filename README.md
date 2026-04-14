@@ -5,7 +5,7 @@
 ## The Plan
 
 - **Who:** Dad (74) & Twin Sons (38)
-- **When:** July 16-23, 2026 (8 days)
+- **When:** July 1–9, 2026 (9 days)
 - **Where:** Scotland's Historic Links
 - **Golf:** 4-5 rounds (one per day max)
 
@@ -19,49 +19,50 @@
 
 ## Golf Courses
 
-1. **Gullane #2** (Fri Jul 17) - ✅ BOOKED 11:04 AM
-2. **St Andrews Old Course** (Sat Jul 18) - 🎰 Ballot dependent
-3. **Dumbarnie Links** (Sun Jul 19) - ✅ BOOKED 09:20, Ref: 59655
-4. **Crail Balcomie Links** (Mon Jul 20) - £60-85
-5. **Carnoustie Burnside** (Tue Jul 21) - £90-110
-6. **Boat of Garten or Grantown** (Wed Jul 22) - £45-70
+1. **Gullane #2 or #3** (Sat Jul 4) — ⚠️ REBOOK (was Jul 18) | 11:04 AM
+2. **St Andrews Old Course** (Sun Jul 5 or Tue Jul 7) — 🎰 Ballot dependent
+3. **Dumbarnie Links** (Sun Jul 5) — ✅ CONFIRMED | 08:50 AM, Ref: 59655
+4. **Carnoustie Burnside** (Tue Jul 7, optional if no ballot) — £90–110
+5. **Boat of Garten Golf Club** (Wed Jul 8) — walk-up, 9 or 18 holes | £50–70
 
 ## The Old Course Strategy
 
-🎰 **Two ballot attempts — Friday & Sunday evenings!**
+🎰 **Two ballot attempts!**
 
-- Sat Jul 18: Old Course if ballot wins, Edinburgh day with Alan if not
-- Enter ballot again Sun evening for Mon Jul 20 play
-- St Andrews is ~50 min from Edinburgh either way
+- ⚠️ Ballot #1: Enter BEFORE boarding July 1 flight — by 9 AM Charlotte time (2 PM UK)
+- For Saturday July 5 play | Results: Thursday July 3 at 4:30 PM UK
+- Ballot #2: Enter Sunday July 5 by 2 PM for Tuesday July 7 play | Results 4:30 PM same day
 
 ## Booking Status
 
 ✅ Confirmed:
-- [x] Flights — AA724 + return (Conf: FNLSDB)
-- [x] Edinburgh Airbnb — Castle Terrace, EH1 2DP — Nights 1–2 (Jul 16–18)
-- [x] Gullane Golf Club #2 — Fri Jul 17 — 11:04 AM
-- [x] Dumbarnie Links — Sun Jul 19 — 09:20 (Ref: 59655)
-- [x] St Andrews Airbnb — Nights 3–4 (Jul 18–20)
+- [x] Flights — AA 732 + AA 7161 outbound / AA 279 + AA 2573 return (Conf: FNLSDB)
+- [x] Dumbarnie Links — 08:50 AM Sun Jul 5 | Ref: 59655 | Contact: Jackie Wright | +44 (0)1334 845 945
+- [x] St Andrews Links ballot account — CREATED
 
-○ Still Needed:
-- [ ] Carnoustie/Dundee accommodation — Night 5 (Jul 20)
-- [ ] Highland cottage — Nights 6–7 (Jul 21–22) — Aviemore or Grantown
-- [ ] Edinburgh Airport hotel — Night 7 (Jul 22)
-- [ ] Crail Balcomie tee time — Mon Jul 20 morning
-- [ ] Carnoustie Burnside tee time — Tue Jul 21 morning
-- [ ] Boat of Garten or Grantown tee time — Wed Jul 22
+🚨 Urgent — Action Required:
+- [ ] **Rebook Gullane** — 11:04 AM tee time Jul 18 → **Sat Jul 4** | +44 1620 842255
+- [ ] Verify St Andrews Links account active for new ballot dates
 
-◇ Ballot / Optional:
-- [ ] Old Course ballot — enter Fri Jul 17 evening and Sun Jul 19 evening
-- [ ] Blair Athol distillery — consider pre-booking
+📋 To Be Booked — Accommodations:
+- [ ] Gullane Village Apartment (Maule House) — 2 nights: Thu Jul 2 & Fri Jul 3
+- [ ] Georgian Sandstone Apartment, St Andrews — 2 nights: Sat Jul 5 & Sun Jul 6, checkout Mon Jul 7
+- [ ] Highland Airbnb (Grantown-on-Spey or Aviemore, 3 bedrooms) — Night 6: Tue Jul 7
+- [ ] Edinburgh Airport hotel — Night 7: **Wed Jul 8** | Recommended: Dakota Edinburgh
+
+📋 To Be Booked — Tee Times / Tours:
+- [ ] Crail Balcomie Links — backup Sat Jul 5 (if no Ballot #1 win) | bookings@crailgolfingsociety.co.uk
+- [ ] **Glenfarclas Distillery — Jul 8 — BOOK THIS WEEK** | glenfarclas.com | +44 (0)1807 500345
+- [ ] Boat of Garten Golf Club — Jul 8 morning (walk-up, no pre-booking required)
+
+◇ Critical Ballot Actions:
+- [ ] Ballot #1 — Wed Jul 1 by 9 AM Charlotte / 2 PM UK — for Saturday July 5
+- [ ] Ballot #2 — Sat Jul 5 by 2 PM UK — for Monday July 7 | Results Sun Jul 6 at 4:30 PM
 
 ## Contributing
 
-Have ideas? Create an [issue](https://github.com/[username]/scotland-golf-2026/issues) or start a [discussion](https://github.com/[username]/scotland-golf-2026/discussions)!
+Have ideas? Create an [issue](https://github.com/tbrooke/Scotland/issues) or start a [discussion](https://github.com/tbrooke/Scotland/discussions)!
 
 ---
 
 **Planning starts January. Memories last forever. 🏴󠁧󠁢󠁳󠁣󠁴󠁿**
-```
-
----

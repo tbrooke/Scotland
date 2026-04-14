@@ -83,14 +83,14 @@
                 iconSize: [30, 30],
             });
 
-            // Day 1-2: Edinburgh & North Berwick
+            // Day 1-2: Edinburgh & Gullane
             var edinburgh = L.marker([55.9533, -3.1883], { icon: castleIcon })
                 .bindPopup("<b>Edinburgh Airport</b><br>Day 1: Arrival")
                 .addTo(map);
 
-            var northBerwick = L.marker([56.0596, -2.7209], { icon: hotelIcon })
+            var gullaneApt = L.marker([56.037, -2.8296], { icon: hotelIcon })
                 .bindPopup(
-                    "<b>North Berwick</b><br>Days 1-2: Accommodation<br>Recovery & exploration",
+                    "<b>Gullane Village Apartment (Maule House)</b><br>📋 Nights 1–2: Thu Jul 2 & Fri Jul 3<br>Central Gullane, East Lothian<br>1 min walk to The Bonnie Badger (Michelin-starred)<br>Walk to Gullane Golf Club",
                 )
                 .addTo(map);
 
@@ -119,12 +119,12 @@
                 )
                 .addTo(map);
 
-            // Strathkinness Airbnb - BOOKED
-            var strathkinness = L.marker([56.3547, -2.8667], {
+            // St Andrews Apartment - Nights 3-4
+            var stAndrewsApt = L.marker([56.3398, -2.7967], {
                 icon: hotelIcon,
             })
                 .bindPopup(
-                    "<b>Strathkinness Airbnb</b><br>✅ BOOKED: July 18-20<br>28 High Road, KY16 9XY<br>4 bedrooms, 5 min to courses<br>Full kitchen, parking, quiet village",
+                    "<b>Georgian Sandstone Apartment, St Andrews</b><br>📋 Nights 3–4: Sat Jul 5 & Sun Jul 6<br>Minutes from Old Course, near West Sands Beach<br>3 bedrooms, 4 beds — one room per person<br>Traditional Georgian, light and airy",
                 )
                 .addTo(map);
 
@@ -153,69 +153,53 @@
             // Day 7: Highlands
             var boatOfGarten = L.marker([57.2444, -3.7986], { icon: golfIcon })
                 .bindPopup(
-                    "<b>Boat of Garten Golf Club</b><br>Day 7: Highland golf<br>Cairngorms setting<br>£50-70",
+                    "<b>Boat of Garten Golf Club</b><br>Day 8: Highland golf<br>Cairngorms National Park<br>Walk-up, 9 or 18 holes | £50-70",
                 )
                 .addTo(map);
 
             var grantownOnSpey = L.marker([57.3278, -3.6075], {
-                icon: golfIcon,
+                icon: hotelIcon,
             })
                 .bindPopup(
-                    "<b>Grantown-on-Spey GC</b><br>Day 7 alternative Highland course<br>£45-65",
+                    "<b>Grantown-on-Spey</b><br>📋 Highland Airbnb — Night 7 (Tue Jul 7)<br>Ideal base — 20 min to Glenfarclas",
                 )
                 .addTo(map);
 
             var aviemore = L.marker([57.1952, -3.8263], { icon: hotelIcon })
                 .bindPopup(
-                    "<b>Aviemore/Grantown</b><br>Day 6-7: Highland accommodation",
+                    "<b>Aviemore</b><br>Highland accommodation alternative<br>35 min to Glenfarclas",
                 )
                 .addTo(map);
 
             // Distilleries
-            var glenlivet = L.marker([57.3019, -3.3283], { icon: whiskyIcon })
+            var glenfarclas = L.marker([57.3786, -3.3319], { icon: whiskyIcon })
                 .bindPopup(
-                    "<b>The Glenlivet Distillery</b><br>Day 7 option: Speyside whisky<br>£15-25",
-                )
-                .addTo(map);
-
-            var dalwhinnie = L.marker([56.9358, -4.2447], { icon: whiskyIcon })
-                .bindPopup(
-                    "<b>Dalwhinnie Distillery</b><br>Day 7 option: Highest in Scotland<br>£15-25",
+                    "<b>Glenfarclas Distillery</b><br>Day 8: Speyside whisky — PREBOOK<br>Ballindalloch, Banffshire AB37 9BD<br>Family owned since 1836 | +44 (0)1807 500345",
                 )
                 .addTo(map);
 
             var blairAthol = L.marker([56.7016, -3.7401], { icon: whiskyIcon })
                 .bindPopup(
-                    "<b>Blair Athol Distillery</b><br>Day 6: Gateway to Highlands<br>£15-25",
+                    "<b>Blair Athol Distillery</b><br>Day 7: Gateway to Highlands<br>On the A9 — no detour | £15-25",
                 )
                 .addTo(map);
 
             var pitlochry = L.marker([56.7026, -3.735], { icon: castleIcon })
                 .bindPopup(
-                    "<b>Pitlochry</b><br>Day 6: Highland town<br>Lunch stop",
-                )
-                .addTo(map);
-
-            // Optional: Stirling Castle
-            var stirling = L.marker([56.1165, -3.9369], { icon: castleIcon })
-                .bindPopup(
-                    "<b>Stirling Castle</b><br>Day 7: Optional stop on way to Edinburgh",
+                    "<b>Pitlochry</b><br>Day 7: Highland town<br>Blair Athol Distillery stop",
                 )
                 .addTo(map);
 
             // Draw the route
             var route = [
                 [55.9533, -3.1883], // Day 1: Edinburgh Airport
-                [56.0596, -2.7209], // Days 1-2: North Berwick
-                [56.037, -2.8296], // Day 2: Gullane Golf
+                [56.037, -2.8296], // Days 1-2: Gullane (Apt + Golf)
                 [56.2226, -2.6997], // Day 3: Anstruther (fish & chips)
-                [56.3547, -2.8667], // Days 3-5: Strathkinness Airbnb
-                [56.3398, -2.7967], // Days 4-5: St Andrews Golf
-                [56.5003, -2.7042], // Day 6: Carnoustie
-                [56.7016, -3.7401], // Day 6: Pitlochry/Blair Athol
-                [57.2444, -3.7986], // Day 7: Boat of Garten
-                [57.3019, -3.3283], // Day 7: Glenlivet/Speyside
-                [56.1165, -3.9369], // Day 7: Stirling (optional)
+                [56.3398, -2.7967], // Days 4-6: St Andrews (Apt + Golf)
+                [56.7016, -3.7401], // Day 7: Pitlochry/Blair Athol
+                [57.3278, -3.6075], // Day 7: Grantown-on-Spey (overnight)
+                [57.2444, -3.7986], // Day 8: Boat of Garten Golf
+                [57.3786, -3.3319], // Day 8: Glenfarclas Distillery
                 [55.9533, -3.1883], // Day 8: Back to Edinburgh
             ];
 
