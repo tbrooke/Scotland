@@ -56,8 +56,8 @@
 - [ ] Boat of Garten Golf Club — Jul 8 morning (walk-up, no pre-booking required)
 
 ◇ Critical Ballot Actions:
-- [ ] Ballot #1 — Wed Jul 1 by 9 AM Charlotte / 2 PM UK — for Saturday July 5
-- [ ] Ballot #2 — Sat Jul 5 by 2 PM UK — for Monday July 7 | Results Sun Jul 6 at 4:30 PM
+- [ ] Ballot #1 — Thu Jul 3 by 2 PM UK — enter from Gullane for Saturday July 5 | Results Thu Jul 3 at 4:30 PM (same day)
+- [ ] Ballot #2 — Sat Jul 5 by 2 PM UK — enter from St Andrews for Monday July 6 | Results Sat Jul 5 at 4:30 PM (same day)
 
 ## Contributing
 

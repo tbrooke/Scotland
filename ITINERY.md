@@ -1,13 +1,6 @@
 Day 1: Wednesday, July 1 — The Journey Begins
 ✈️ NO GOLF — Travel day
 
-🚨 CRITICAL: Enter Old Course Ballot #1 BEFORE leaving home
-  Deadline: 2 PM UK / 9 AM Charlotte time on July 1
-  Enter for Saturday July 5
-  Via booking.standrews.com
-  Saturday = most ballot slots (best odds)
-  Results: Thursday July 3 at 4:30 PM UK
-
 Afternoon:
   Drive to Charlotte Douglas Airport (CLT)
 
@@ -71,6 +64,11 @@ Evening:
   Dinner in Gullane — The Old Clubhouse or Bonnie Badger
   Early night — first golf day tomorrow
 
+🚨 ACTION TODAY — Enter Old Course Ballot #1 by 2 PM
+  Enter from Gullane: booking.standrews.com or phone
+  For: Saturday July 5
+  Results: Thursday July 3 at 4:30 PM UK — same day
+
 ---
 
 Day 4: Saturday, July 4 — Independence Day on Scottish Links
@@ -95,14 +93,15 @@ Afternoon:
   3 bedrooms, 4 beds — one room per person
   Traditional Georgian, light and airy
 
-4:30 PM: Check Ballot #1 results (text/email)
-  Did we win Saturday July 5 Old Course?
+✅ Ballot #1 result already known (came Thu Jul 3 at 4:30 PM — same day you entered)
+  Win → Old Course Sat Jul 5 | No win → Dumbarnie Links Sat Jul 5 (confirmed booking)
 
 Evening:
   Walk Old Course, explore St Andrews
   Dinner on Market Street
 
-📋 BALLOT NOTE: Enter Ballot #2 tomorrow (Sunday July 5) by 2 PM for Tuesday July 7
+📋 BALLOT REMINDER — Enter Ballot #2 tomorrow (Saturday July 5) by 2 PM for Monday July 6
+  Results come Saturday July 5 at 4:30 PM — same day
 
 ---
 
@@ -123,9 +122,9 @@ Day 5: Sunday, July 5 — Dumbarnie Links
   Strongly recommend hiring a caddie: caddiemaster@dumbarnielinks.com
   Cancellation: cancel by June 5 for full refund; non-refundable within 30 days
 
-⚠️ BY 2 PM — Enter Ballot #2 for Tuesday July 7
-  Via booking.standrews.com
-  Results: Monday July 6 at 4:30 PM UK
+🚨 BY 2 PM — Enter Ballot #2 for Monday July 6
+  Via booking.standrews.com, phone, or in person at the Links
+  Results: Saturday July 5 at 4:30 PM UK — same day, before dinner tonight
 
 Afternoon (post-round):
   Lunch at Dumbarnie Old Barn restaurant (on course)
@@ -153,8 +152,8 @@ Afternoon:
   St Andrews Cathedral ruins & harbour
   East Neuk option: Anstruther Fish Bar (best fish & chips in Scotland)
 
-4:30 PM:
-  📧 CHECK EMAIL / TEXT — Ballot #2 Results (for Tue Jul 7 Old Course)
+✅ Ballot #2 result already known (came Sat Jul 5 at 4:30 PM — same day you entered)
+  Win → Old Course Mon Jul 6 | No win → alternative course or rest day
 
 Evening:
   Dinner at The Jigger Inn (book ahead — overlooks 17th hole)
@@ -165,27 +164,9 @@ Overnight: Georgian Sandstone Apartment (final night, checkout Tue Jul 7)
 ---
 
 Day 7: Tuesday, July 7 — North to the Highlands
-⛳ GOLF: Flexible — ballot, alternative, or rest day
+🚗 NO GOLF — Drive day
 
-Morning — one of three options, decide that day:
-
-OPTION A — If Ballot #2 Won:
-🏌️ THE OLD COURSE — tee time as assigned
-  Bring GHIN handicap certificates — required
-  Swilcan Bridge, Hell Bunker, Road Hole — the dream round
-  Drive north after round (~2 PM departure)
-
-OPTION B — Alternative St Andrews area course:
-  St Andrews Jubilee Course — £18.75 promotional, serious test
-  OR St Andrews Castle Course — £22.50 promotional, clifftop views
-  OR Crail Balcomie Links — 30 min from St Andrews, founded 1786
-  All have good weekday availability — decide that morning
-
-OPTION C — Take the day off:
-  Relaxed morning in St Andrews — coffee on Market Street
-  Walk West Sands Beach (Chariots of Fire location)
-  Drive north at leisure
-  Perfectly legitimate after 3–4 rounds in 5 days
+Morning: Checkout St Andrews apartment, depart for Highlands
 
 Afternoon: Drive North
   Route: A90 north → Dundee → A9 north through Perthshire
@@ -265,15 +246,15 @@ Early Morning:
 
 ⛳ GOLF SUMMARY
 
-Total: 4–5 confirmed rounds + possible Old Course if ballot won
+Total: 3–4 confirmed rounds depending on ballot
 
 ✈️ Day 1 (Wed Jul 1): NO GOLF — Travel Charlotte to London
 ✈️ Day 2 (Thu Jul 2): NO GOLF — Arrive Edinburgh, rest
 ❌ Day 3 (Fri Jul 3): NO GOLF — Rest and recovery, explore Gullane
 ⛳ Day 4 (Sat Jul 4): Gullane Golf Club #2 or #3, 11:04 AM ⚠️ rebook required
 ⛳ Day 5 (Sun Jul 5): Dumbarnie Links 08:50 AM ✅ CONFIRMED (Ref: 59655)
-❌ Day 6 (Mon Jul 6): NO GOLF — St Andrews exploration, walk Old Course, 4:30 PM Ballot #2 results
-🎲 Day 7 (Tue Jul 7): Old Course (ballot) OR alternative OR rest — flexible
+🎲 Day 6 (Mon Jul 6): Old Course (if Ballot #2 won Sat Jul 5) OR alternative OR rest day
+🚗 Day 7 (Tue Jul 7): NO GOLF — Drive north, Blair Athol Distillery en route
 ⛳ Day 8 (Wed Jul 8): Boat of Garten — 9 or 18 holes, walk-up on the day
                      🥃 Glenfarclas Distillery — prebook this week
 ✈️ Day 9 (Thu Jul 9): NO GOLF — Fly home
@@ -310,8 +291,8 @@ Old Course cumulative odds: ~44% across two ballot entries
   Boat of Garten Golf Club — Jul 8 morning (walk-up, no pre-booking required)
 
 ◇ Critical Ballot Actions:
-  Ballot #1 — Wed Jul 1 by 2 PM UK / 9 AM Charlotte (from home, before airport) for Sat Jul 5
-             Results: Thu Jul 3 at 4:30 PM UK
-  Ballot #2 — Sat Jul 5 by 2 PM UK for Mon Jul 7
-             Results: Sun Jul 6 at 4:30 PM UK
+  Ballot #1 — Thu Jul 3 by 2 PM UK — enter from Gullane for Sat Jul 5
+             Results: Thu Jul 3 at 4:30 PM UK (same day)
+  Ballot #2 — Sat Jul 5 by 2 PM UK — enter from St Andrews for Mon Jul 6
+             Results: Sat Jul 5 at 4:30 PM UK (same day)
   NEVER enter a Sunday ballot — Old Course closed every Sunday
