@@ -22,6 +22,12 @@ Late Morning: Lunch at T5
   Heston Blumenthal's Perfectionists' Café (landside)
   OR Gordon Ramsay's Plane Food (airside)
 
+🚨 BY 2 PM — Enter Old Course Ballot #1 from Heathrow
+  Enter via booking.standrews.com or phone while at T5
+  For: Saturday July 4
+  Results: Thursday July 2 at ~4:30 PM UK — same day
+  (You'll be on BA flight to Edinburgh or just arriving Gullane — check results on arrival)
+
 2:40 PM:
   ✈️ AA 7161 (operated by British Airways) — LHR → EDI
   Conf: FNLSDB
@@ -31,82 +37,91 @@ Late Morning: Lunch at T5
   Drive to Gullane (~45 min via A1)
   Arrive accommodation ~6:15 PM
 
-🏠 ACCOMMODATION: Gullane Village Apartment (Maule House) — 📋 TO BE BOOKED
-  Location: Central Gullane, East Lothian | Reg: EL00404F
-  Nights 1–2 (Thu Jul 2 – Fri Jul 3)
+🏠 ACCOMMODATION: Maule House, Gullane ✅ CONFIRMED
+  Address: 8 Maule Terrace, Gullane, East Lothian EH31 2DB
+  Registration: EL00404F
+  Check-in: Thu Jul 2 at 4:00 PM | Checkout: Sat Jul 4 at 10:00 AM
+  Nights 1–2 (Thu Jul 2 & Fri Jul 3)
   Bedrooms: Master (king) + Second bedroom (adult bunks)
-  1 min walk to The Bonnie Badger (Tom Kitchin, Michelin-starred)
-  1 min walk to The Old Clubhouse, walk to Gullane Golf Club
   Street parking on front and side streets
+  1 min walk to Bonnie Badger, Old Clubhouse, Gullane Golf Club
 
 Evening:
+  Ballot #1 results check around 4:30 PM on arrival
   Dinner at The Bonnie Badger (Michelin-starred, 1 min walk) — book ahead
   OR The Old Clubhouse (backup)
   Early night — beat the jet lag
 
 ---
 
-Day 3: Friday, July 3 — Easing In
-⛳ NO GOLF — Rest & recovery day
-
-Morning:
-  Leisurely breakfast, no alarm
-  Explore Gullane village on foot
-  Walk to Gullane Beach (2 min drive)
-
-Afternoon Options:
-  A) Edinburgh day trip (45 min drive or train from Drem station)
-     Royal Mile, Edinburgh Castle, Grassmarket
-     Contact Alan re meetup if desired
-  B) Stay local: Dirleton Castle (15 min), North Berwick seafront (20 min)
-
-Evening:
-  Dinner in Gullane — The Old Clubhouse or Bonnie Badger
-  Early night — first golf day tomorrow
-
-🚨 ACTION TODAY — Enter Old Course Ballot #1 by 2 PM
-  Enter from Gullane: booking.standrews.com or phone
-  For: Saturday July 5
-  Results: Thursday July 3 at 4:30 PM UK — same day
-
----
-
-Day 4: Saturday, July 4 — Independence Day on Scottish Links
+Day 3: Friday, July 3 — Easing In on the Links
 ⛳ GOLF: Gullane Golf Club
 
 Morning:
-🏌️ Gullane Golf Club #2 or #3
-  Tee Time: 11:04 AM
-  ⚠️ REBOOK REQUIRED — original booking was July 18
+  Leisurely breakfast — late tee time eases jet lag
+  Ballot #1 results already known (came Thu Jul 2 at 4:30 PM)
+
+🏌️ 11:04 AM — Gullane Golf Club #2 or #3
+  ⚠️ REBOOK REQUIRED — original booking was July 18, rebook to Friday July 3 not yet completed
+  📞 +44 1620 842255 | gullanegolfclub.com
   Green fees: £60–90
   Visitor-friendly, excellent visitors centre
   Stunning Firth of Forth views
+  1 min walk from Maule House accommodation
+📺 Watch: Ep. 5 "Scotland's Golf Coast" + Ep. 4 "The Pebble Beach of Scotland" — see WATCH.html
 
 Afternoon:
   Lunch at Gullane clubhouse
-  Check out of Gullane Apartment
-  Drive to St Andrews (~90 min via A1/M90)
+  Explore Gullane village on foot or Gullane Beach (2 min drive)
 
-🏠 ACCOMMODATION: Georgian Sandstone Apartment, St Andrews — 📋 TO BE BOOKED
-  Location: Minutes from Old Course, near West Sands Beach
-  Nights 3–5 (Sat Jul 4, Sun Jul 5, Mon Jul 6)
-  3 bedrooms, 4 beds — one room per person
-  Traditional Georgian, light and airy
+Evening:
+  Dinner in Gullane — The Old Clubhouse or Bonnie Badger
 
-✅ Ballot #1 result already known (came Thu Jul 3 at 4:30 PM — same day you entered)
-  Win → Old Course Sat Jul 5 | No win → Dumbarnie Links Sat Jul 5 (confirmed booking)
+---
+
+Day 4: Saturday, July 4 — Independence Day
+🎲 EITHER Old Course (if Ballot #1 won Thu Jul 2) OR Travel Day
+
+Checkout Maule House: 10:00 AM
+
+IF BALLOT #1 WON:
+  Drive Gullane → St Andrews (~90 min)
+  If early tee time (6:30–7:00 AM): leave Gullane ~5:00 AM
+  If afternoon tee time: checkout 10 AM, relaxed drive
+  Gullane golf was Friday — no conflict
+  Play Old Course, then check into Howard Place at 4:00 PM
+
+IF BALLOT #1 LOST:
+  Relaxed travel day — no rush
+  Explore East Lothian coast or drive direct to St Andrews
+  Check into Howard Place at 4:00 PM
+
+🏠 ACCOMMODATION: Howard Place, St Andrews ✅ CONFIRMED
+  Address: Howard Place, St Andrews, Fife KY16 9HL
+  Host: Emma | Confirmation: HM9YNTRBMN
+  Check-in: Sat Jul 4 at 4:00 PM (lockbox — contact host for details)
+  Checkout: Mon Jul 6 at 10:00 AM
+  Nights 3–4 (Sat Jul 4 & Sun Jul 5)
+  3 guests, pets allowed
+  Free cancellation before 4:00 PM June 29
+  Partial refund if cancelled before 4:00 PM July 4
+📺 Tonight: Ep. 6 "Leven Links" + Ep. 7 "Kingsbarns" — sets the Fife coastal mood
+
+🚨 BY 2 PM — Enter Old Course Ballot #2
+  Enter in person at Old Pavilion (next to 1st tee), online, or by phone
+  For: Monday July 6
+  Results: Saturday July 4 at ~4:30 PM UK — same day
 
 Evening:
   Walk Old Course, explore St Andrews
   Dinner on Market Street
 
-📋 BALLOT REMINDER — Enter Ballot #2 tomorrow (Saturday July 5) by 2 PM for Monday July 6
-  Results come Saturday July 5 at 4:30 PM — same day
-
 ---
 
 Day 5: Sunday, July 5 — Dumbarnie Links
 ⛳ GOLF: Dumbarnie Links ✅ CONFIRMED
+
+Old Course is closed Sundays — walk it as a pedestrian if desired
 
 ⚠️ 7:45 AM — Depart St Andrews
   Drive from St Andrews to Dumbarnie Links — approx 25–30 min via A915
@@ -122,9 +137,8 @@ Day 5: Sunday, July 5 — Dumbarnie Links
   Strongly recommend hiring a caddie: caddiemaster@dumbarnielinks.com
   Cancellation: cancel by June 5 for full refund; non-refundable within 30 days
 
-🚨 BY 2 PM — Enter Ballot #2 for Monday July 6
-  Via booking.standrews.com, phone, or in person at the Links
-  Results: Saturday July 5 at 4:30 PM UK — same day, before dinner tonight
+Ballot #2 results already known (came Sat Jul 4 at 4:30 PM — same day you entered)
+📺 If Ballot #2 won: Watch Ep. 8 "The Old Course" tonight — save it for when you know you're playing
 
 Afternoon (post-round):
   Lunch at Dumbarnie Old Barn restaurant (on course)
@@ -135,60 +149,34 @@ Evening:
   Dinner at The Jigger Inn (overlooks 17th hole — book ahead)
   OR The Dunvegan Hotel (golf memorabilia, great pub)
 
-Overnight: Georgian Sandstone Apartment
+Overnight: Howard Place, St Andrews
 
 ---
 
-Day 6: Monday, July 6 — St Andrews — Soak It All In
-❌ NO GOLF — Rest & Exploration Day
+Day 6: Monday, July 6 — St Andrews: Old Course or Alternatives
+🎲 EITHER Old Course (if Ballot #2 won Sat Jul 4) OR Alternative
 
-Morning:
-  Walk the Old Course fairways (public access anytime on foot)
-  Swilcan Bridge photos, 18th fairway walk
-  British Golf Museum
+Checkout Howard Place: 10:00 AM — pack bags before round or have sons handle checkout
 
-Afternoon:
-  West Sands Beach (Chariots of Fire location)
-  St Andrews Cathedral ruins & harbour
-  East Neuk option: Anstruther Fish Bar (best fish & chips in Scotland)
+IF BALLOT #2 WON:
+  Play Old Course morning
+  Head north to Highlands after round
+  Blair Athol Distillery stop en route (Pitlochry, on the A9 — no detour)
 
-✅ Ballot #2 result already known (came Sat Jul 5 at 4:30 PM — same day you entered)
-  Win → Old Course Mon Jul 6 | No win → alternative course or rest day
+IF BALLOT #2 LOST:
+  Options: Crail Balcomie Links (backup) | rest day | Edinburgh day with Alan
+  Drive north to Highlands Monday afternoon or Tuesday morning
 
-Evening:
-  Dinner at The Jigger Inn (book ahead — overlooks 17th hole)
-  Pack for departure tomorrow
-
-Overnight: Georgian Sandstone Apartment (final night, checkout Tue Jul 7)
+🏠 ACCOMMODATION — Night 5 (Mon Jul 6): TO BE BOOKED
+  Options: Stay another night in St Andrews area if available,
+  or begin drive north and stay en route (Dundee/Perth area)
+  Depends on Old Course ballot result and departure timing
 
 ---
 
-Day 7: Tuesday, July 7 — North to the Highlands
-🚗 NO GOLF — Drive day
-
-Morning: Checkout St Andrews apartment, depart for Highlands
-
-Afternoon: Drive North
-  Route: A90 north → Dundee → A9 north through Perthshire
-🥃 Blair Athol Distillery, Pitlochry
-  Directly on the A9 — no detour required
-  Classic Highland distillery, gateway to the Highlands
-  Tour & tasting: £15–25/person | Allow 1.5 hours
-
-Evening:
-  Continue north on A9 (~45 min from Pitlochry)
-  Arrive Grantown-on-Spey or Aviemore early evening
-  Dinner with mountain views
-
-🏠 ACCOMMODATION: Highland Airbnb — Grantown-on-Spey or Aviemore — 📋 TO BE BOOKED
-  1 night: Tue Jul 7
-  Requirements: 3 bedrooms | Within 30 min of Glenfarclas Distillery
-  Grantown-on-Spey is ideal base — central to everything
-
----
-
-Day 8: Wednesday, July 8 — Whisky, Mountains & Farewell
-⛳ GOLF: Boat of Garten Golf Club (walk-up)
+Day 7: Tuesday, July 7 — Highlands Golf & Whisky
+⛳ GOLF: Boat of Garten Golf Club (walk-up AM)
+🥃 DISTILLERY: Glenfarclas (PM)
 
 Morning:
 🏌️ Boat of Garten Golf Club
@@ -214,7 +202,35 @@ Afternoon:
 ⚠️ Depart Highland area by 3 PM at latest
   Route: A9 south through Perthshire → Edinburgh
   Allow 2.5 hours | Target arrival at airport hotel: 6–7 PM
-  Do NOT stay in Highlands — 11:25 AM departure tomorrow
+  Do NOT stay in Highlands — 11:25 AM departure day after tomorrow
+
+🏠 ACCOMMODATION: Highland Airbnb — 📋 TO BE BOOKED
+  Night 6 (Tue Jul 7 — 1 night only)
+  Area: Grantown-on-Spey or Aviemore
+  Requirements: 3 bedrooms | Within 30 min of Glenfarclas Distillery
+  Grantown-on-Spey is ideal base — central to everything
+
+---
+
+Day 8: Wednesday, July 8 — Dunbar & Farewell Scotland
+⛳ GOLF: Dunbar Golf Club (AM) — 📋 TO BE BOOKED
+
+Morning:
+🏌️ Dunbar Golf Club
+  Classic links | £50–75
+  Erik Anders Lang called it "the Pebble Beach of Scotland"
+  On Alan's original recommendation list
+  ~45 min from Edinburgh Airport
+  TEE TIME: TO BE BOOKED
+
+  Bookend: trip starts East Lothian, ends East Lothian
+📺 Watch: Ep. 4 "The Pebble Beach of Scotland" — EAL's Dunbar round, where he coins the phrase
+
+Afternoon:
+  Lunch in Dunbar
+  Drive to Edinburgh Airport (~45 min)
+🥃 Blair Athol Distillery optional stop en route if not visited Mon/Tue
+  (Directly on the A9 at Pitlochry)
 
 Evening:
   Check into Edinburgh Airport hotel
@@ -222,10 +238,11 @@ Evening:
   Early night — be at airport by 9:00 AM tomorrow
 
 🏠 ACCOMMODATION: Edinburgh Airport Hotel — 📋 TO BE BOOKED
-  Night 7: Wed Jul 8
+  Night 7 (Wed Jul 8)
   Recommended: Dakota Edinburgh (quality, 10 min from terminal)
   Alternative: Marriott Edinburgh Airport
   Budget: Premier Inn Edinburgh Airport
+  STRONGLY RECOMMENDED — avoids early AM drive from Highlands
 
 ---
 
@@ -246,20 +263,21 @@ Early Morning:
 
 ⛳ GOLF SUMMARY
 
-Total: 3–4 confirmed rounds depending on ballot
+Total: 3–5 rounds depending on ballot results
 
 ✈️ Day 1 (Wed Jul 1): NO GOLF — Travel Charlotte to London
-✈️ Day 2 (Thu Jul 2): NO GOLF — Arrive Edinburgh, rest
-❌ Day 3 (Fri Jul 3): NO GOLF — Rest and recovery, explore Gullane
-⛳ Day 4 (Sat Jul 4): Gullane Golf Club #2 or #3, 11:04 AM ⚠️ rebook required
+✈️ Day 2 (Thu Jul 2): NO GOLF — Arrive Edinburgh, drive to Gullane
+                     🎲 Enter Ballot #1 from Heathrow by 2 PM (plays Sat Jul 4)
+⛳ Day 3 (Fri Jul 3): Gullane Golf Club #2 or #3, 11:04 AM ⚠️ rebook required
+🎲 Day 4 (Sat Jul 4): Old Course (if Ballot #1 won) OR travel day to St Andrews
+                     🎲 Enter Ballot #2 by 2 PM (plays Mon Jul 6)
 ⛳ Day 5 (Sun Jul 5): Dumbarnie Links 08:50 AM ✅ CONFIRMED (Ref: 59655)
-🎲 Day 6 (Mon Jul 6): Old Course (if Ballot #2 won Sat Jul 5) OR alternative OR rest day
-🚗 Day 7 (Tue Jul 7): NO GOLF — Drive north, Blair Athol Distillery en route
-⛳ Day 8 (Wed Jul 8): Boat of Garten — 9 or 18 holes, walk-up on the day
-                     🥃 Glenfarclas Distillery — prebook this week
+🎲 Day 6 (Mon Jul 6): Old Course (if Ballot #2 won Sat Jul 4) OR Crail / rest / Edinburgh
+⛳ Day 7 (Tue Jul 7): Boat of Garten — walk-up AM | 🥃 Glenfarclas Distillery PM
+⛳ Day 8 (Wed Jul 8): Dunbar Golf Club AM — TO BE BOOKED | Drive to airport hotel
 ✈️ Day 9 (Thu Jul 9): NO GOLF — Fly home
 
-Old Course cumulative odds: ~44% across two ballot entries
+Old Course cumulative odds: ~25% per entry, ~44% across two ballot entries
 
 ---
 
@@ -268,31 +286,49 @@ Old Course cumulative odds: ~44% across two ballot entries
 ✅ Confirmed:
   Flights — AA 732 + AA 7161 outbound / AA 279 + AA 2573 return (Conf: FNLSDB)
   Dumbarnie Links — 08:50 AM Sun Jul 5 (Ref: 59655) | Jackie Wright | +44 (0)1334 845 945
+  Maule House, Gullane (EL00404F) — Thu Jul 2–Sat Jul 4 (2 nights)
+  Howard Place, St Andrews (HM9YNTRBMN) — Sat Jul 4–Mon Jul 6 (2 nights)
   St Andrews Links ballot account — CREATED
 
 🚨 Urgent — Action Required:
-  Rebook Gullane Golf Club — 11:04 AM from Jul 18 → Sat Jul 4
+  Rebook Gullane Golf Club — 11:04 AM Friday July 3 (original booking was July 18)
     📞 +44 1620 842255 | gullanegolfclub.com
-  Verify St Andrews Links account active for new ballot dates
 
 📋 To Be Booked — Accommodations:
-  Gullane Village Apartment (Maule House, EL00404F) — 2 nights: Thu Jul 2 & Fri Jul 3
-  Georgian Sandstone Apartment, St Andrews — 2 nights: Sat Jul 5 & Sun Jul 6, checkout Mon Jul 7
+  Night 5 (Mon Jul 6): St Andrews area OR en route north (Dundee/Perth)
   Highland Airbnb (Grantown-on-Spey or Aviemore, 3 bedrooms) — Night 6: Tue Jul 7
   Edinburgh Airport hotel — Night 7: Wed Jul 8 — STRONGLY RECOMMENDED
     Recommended: Dakota Edinburgh | Alt: Marriott Edinburgh Airport | Budget: Premier Inn
-    (2.5-3 hr drive from Highlands; 11:25 AM departure Jul 9)
+    (2.5–3 hr drive from Highlands; 11:25 AM departure Jul 9)
 
 📋 To Be Booked — Tee Times & Tours:
-  Crail Balcomie Links — backup for Sat Jul 5 (if no Ballot #1 win)
+  Crail Balcomie Links — Mon Jul 6 backup (if Ballot #2 lost)
     bookings@crailgolfingsociety.co.uk
-  Glenfarclas Distillery — Jul 8 — BOOK THIS WEEK
+  Dunbar Golf Club — Wed Jul 8 AM — NEW ADDITION
+    Classic links, £50–75 | ~45 min from Edinburgh Airport
+  Glenfarclas Distillery — Tue Jul 7 — BOOK THIS WEEK
     +44 (0)1807 500345 | glenfarclas.com
-  Boat of Garten Golf Club — Jul 8 morning (walk-up, no pre-booking required)
+  Blair Athol Distillery — Mon Jul 6 or Tue Jul 7 (en route north, on A9 at Pitlochry)
+  Boat of Garten Golf Club — Tue Jul 7 morning (walk-up, no pre-booking required)
 
 ◇ Critical Ballot Actions:
-  Ballot #1 — Thu Jul 3 by 2 PM UK — enter from Gullane for Sat Jul 5
-             Results: Thu Jul 3 at 4:30 PM UK (same day)
-  Ballot #2 — Sat Jul 5 by 2 PM UK — enter from St Andrews for Mon Jul 6
-             Results: Sat Jul 5 at 4:30 PM UK (same day)
+  Ballot #1 — Thu Jul 2 by 2 PM UK — enter from Heathrow T5 for Sat Jul 4
+             Results: Thu Jul 2 at ~4:30 PM UK (same day — check on arrival in Gullane)
+  Ballot #2 — Sat Jul 4 by 2 PM UK — enter from St Andrews for Mon Jul 6
+             Results: Sat Jul 4 at ~4:30 PM UK (same day)
   NEVER enter a Sunday ballot — Old Course closed every Sunday
+
+---
+
+📺 WATCH BEFORE YOU GO
+
+Erik Anders Lang / Random Golf Club — Un/Official Guide to Golf in Scotland
+Playlist: https://www.youtube.com/playlist?list=PLcfxZ-vYaEtb_Cle4jdqaxxx85LaaV_Dr
+
+Ep. 4 — "The Pebble Beach of Scotland" (Dunbar — your Day 8)
+Ep. 5 — "Scotland's Golf Coast" (Gullane / East Lothian — your Day 3)
+Ep. 6 — "Leven Links" (Fife regional flavour — watch on arrival in St Andrews)
+Ep. 7 — "Magical Round at Kingsbarns" (Fife coast — watch before Dumbarnie)
+Ep. 8 — "The Old Course, St Andrews" — save for the night you win the ballot
+
+See WATCH.html for embeds and watch-timing guide.

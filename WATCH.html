@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Watch Before You Go | Scotland Golf Adventure 2026</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <style>
+            .watch-header {
+                background: linear-gradient(135deg, #0f0f0f 0%, #1e3a5f 60%, #cc0000 100%);
+                color: white;
+                padding: 4rem 2rem;
+                text-align: center;
+            }
+
+            .watch-header h1 {
+                font-size: 3rem;
+                margin-bottom: 0.75rem;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+
+            .watch-header .series-title {
+                font-size: 1.2rem;
+                opacity: 0.85;
+                letter-spacing: 0.05em;
+                margin-bottom: 0.5rem;
+            }
+
+            .watch-header .subtitle {
+                font-size: 1.4rem;
+                font-style: italic;
+                opacity: 0.9;
+            }
+
+            .region-banner {
+                background: linear-gradient(to right, #1e3a5f, #2c5282);
+                color: white;
+                padding: 1.75rem 2rem;
+                border-radius: 12px;
+                margin: 3rem 0 1.5rem 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            .region-banner h2 {
+                color: white;
+                font-size: 1.8rem;
+                margin: 0;
+                text-align: left;
+            }
+
+            .region-days {
+                background: rgba(255, 255, 255, 0.15);
+                padding: 0.5rem 1.25rem;
+                border-radius: 20px;
+                font-size: 0.95rem;
+                white-space: nowrap;
+            }
+
+            .video-card {
+                background: white;
+                border-radius: 14px;
+                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+                margin: 2rem 0;
+                overflow: hidden;
+                border-left: 5px solid #cc0000;
+            }
+
+            .video-card-header {
+                padding: 1.25rem 1.75rem 0 1.75rem;
+                display: flex;
+                align-items: flex-start;
+                gap: 1.25rem;
+                flex-wrap: wrap;
+            }
+
+            .episode-badge {
+                background: #cc0000;
+                color: white;
+                padding: 0.4rem 1rem;
+                border-radius: 20px;
+                font-size: 0.85rem;
+                font-weight: bold;
+                letter-spacing: 0.05em;
+                white-space: nowrap;
+                flex-shrink: 0;
+                margin-top: 0.2rem;
+            }
+
+            .video-card-header h3 {
+                color: #1e3a5f;
+                font-size: 1.4rem;
+                margin: 0;
+                flex: 1;
+            }
+
+            .when-to-watch {
+                margin: 0.75rem 1.75rem;
+                padding: 0.6rem 1rem;
+                background: #e8f4f8;
+                border-radius: 8px;
+                font-size: 0.95rem;
+                color: #1e3a5f;
+            }
+
+            .when-to-watch a {
+                color: #1e3a5f;
+                font-weight: bold;
+            }
+
+            .when-to-watch.urgent {
+                background: #fff3cd;
+                border-left: 3px solid #ffc107;
+            }
+
+            .video-embed {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                margin: 1rem 1.75rem;
+                border-radius: 10px;
+            }
+
+            .video-embed iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+                border-radius: 10px;
+            }
+
+            .video-notes {
+                padding: 0.75rem 1.75rem 1.5rem 1.75rem;
+            }
+
+            .video-notes p {
+                color: #555;
+                font-size: 0.97rem;
+                line-height: 1.65;
+                margin: 0;
+            }
+
+            .video-notes strong {
+                color: #1e3a5f;
+            }
+
+            .no-embed-card {
+                background: #f8f9fa;
+                border: 2px dashed #aaa;
+                border-radius: 10px;
+                margin: 1rem 1.75rem;
+                padding: 2rem;
+                text-align: center;
+            }
+
+            .no-embed-card p {
+                color: #555;
+                margin-bottom: 1.25rem;
+                font-size: 0.97rem;
+            }
+
+            .watch-btn {
+                display: inline-block;
+                background: #cc0000;
+                color: white;
+                padding: 0.75rem 2rem;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1rem;
+                transition: background 0.3s ease;
+            }
+
+            .watch-btn:hover {
+                background: #aa0000;
+            }
+
+            .full-playlist {
+                background: #0f0f0f;
+                border-radius: 14px;
+                padding: 2rem 1.75rem;
+                margin: 3rem 0;
+                text-align: center;
+            }
+
+            .full-playlist h3 {
+                color: white;
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .full-playlist p {
+                color: #aaa;
+                margin-bottom: 1.5rem;
+                font-size: 0.95rem;
+            }
+
+            .full-playlist .video-embed {
+                margin: 0;
+                border-radius: 10px;
+            }
+
+            .series-intro {
+                background: #f0f4f8;
+                border-left: 5px solid #cc0000;
+                padding: 2rem 2.5rem;
+                border-radius: 0 12px 12px 0;
+                margin: 2rem 0;
+            }
+
+            .series-intro p {
+                font-size: 1.05rem;
+                line-height: 1.75;
+                color: #34495e;
+                margin-bottom: 1rem;
+            }
+
+            .series-intro p:last-child {
+                margin-bottom: 0;
+            }
+
+            .series-intro .attribution {
+                font-size: 0.9rem;
+                color: #777;
+                font-style: italic;
+            }
+
+            .nav-links {
+                text-align: center;
+                margin: 3rem 0;
+            }
+
+            .nav-btn {
+                background: #1e3a5f;
+                color: white;
+                padding: 1rem 2rem;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: bold;
+                margin: 0.5rem;
+                display: inline-block;
+                transition: background 0.3s ease;
+            }
+
+            .nav-btn:hover {
+                background: #2c5282;
+            }
+
+            @media (max-width: 768px) {
+                .watch-header h1 { font-size: 2rem; }
+                .region-banner { flex-direction: column; }
+                .region-banner h2 { font-size: 1.4rem; }
+                .video-card-header { flex-direction: column; gap: 0.5rem; }
+                .video-embed, .video-notes, .when-to-watch, .no-embed-card {
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                }
+                .video-card-header { padding: 1rem 1rem 0 1rem; }
+                .video-notes { padding: 0.75rem 1rem 1.25rem 1rem; }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="watch-header">
+            <h1>📺 Watch Before You Go</h1>
+            <p class="series-title">THE UN/OFFICIAL GUIDE TO GOLF IN SCOTLAND</p>
+            <p class="subtitle">Erik Anders Lang &amp; The Random Golf Club</p>
+        </div>
+
+        <div class="container">
+
+            <div class="series-intro">
+                <p>
+                    Erik Anders Lang and The Random Golf Club spent several weeks playing
+                    Scotland's greatest links courses and filming every round. The result is
+                    one of the best golf travel series ever made — honest, funny, genuinely
+                    in love with the game. No corporate sponsors, no perfect swing tips.
+                    Just real golfers on real courses.
+                </p>
+                <p>
+                    The episodes below are specifically matched to the courses and regions
+                    on your trip. Watch them before you leave — or on the flight over —
+                    and you'll arrive already knowing what the courses look and feel like.
+                    The Old Course episode in particular is worth saving for the night
+                    you win the ballot.
+                </p>
+                <p>
+                    Erik Anders Lang on Dunbar Golf Club:
+                    <em>"This might be the Pebble Beach of Scotland."</em>
+                    You're playing it on the last day of the trip.
+                </p>
+                <p class="attribution">
+                    Full playlist: <a href="https://www.youtube.com/playlist?list=PLcfxZ-vYaEtb_Cle4jdqaxxx85LaaV_Dr" target="_blank">youtube.com/playlist?list=PLcfxZ-vYaEtb_Cle4jdqaxxx85LaaV_Dr</a>
+                </p>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- SECTION 1: EAST LOTHIAN -->
+            <!-- ============================================================ -->
+            <div class="region-banner" id="east-lothian">
+                <h2>⛳ East Lothian — Your Home Turf</h2>
+                <span class="region-days">Days 3 &amp; 8 · Gullane (Fri Jul 3) &amp; Dunbar (Wed Jul 8)</span>
+            </div>
+
+            <p style="color: #555; font-size: 1rem; line-height: 1.7; margin-bottom: 0.5rem;">
+                You open and close the trip on East Lothian's Golf Coast — one of the most
+                concentrated stretches of links golf anywhere in the world. These two episodes
+                cover the courses and coastline you'll spend Days 3 and 8 on.
+            </p>
+
+            <!-- Episode 4 -->
+            <div class="video-card" id="ep4">
+                <div class="video-card-header">
+                    <span class="episode-badge">Episode 4</span>
+                    <h3>The Pebble Beach of Scotland</h3>
+                </div>
+                <div class="when-to-watch urgent">
+                    ⏰ <strong>Watch before Day 8 (Wed Jul 8)</strong> — Dunbar Golf Club is your final round.
+                    EAL coins the phrase right here.
+                    <a href="ITINERARY.html">→ Day 8 in Itinerary</a>
+                </div>
+                <div class="video-embed">
+                    <iframe
+                        src="https://www.youtube.com/embed/u7sDjAQ4F2c?rel=0&modestbranding=1"
+                        title="The Pebble Beach of Scotland — Un/Official Guide to Scotland Ep. 4"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                <div class="video-notes">
+                    <p>
+                        <strong>What to watch for:</strong> The approach from town, the view from the
+                        first tee out over the Firth of Forth, and the way the course hugs the sea wall
+                        for holes that feel genuinely unlike anywhere else. This is where Erik says the
+                        words — and you'll understand exactly why when you're standing on the 1st tee.
+                        Also notice how walkable and friendly the club is. You'll be there in six weeks.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Episode 5 -->
+            <div class="video-card" id="ep5">
+                <div class="video-card-header">
+                    <span class="episode-badge">Episode 5</span>
+                    <h3>Scotland's Golf Coast W A Duck</h3>
+                </div>
+                <div class="when-to-watch">
+                    ⏰ <strong>Watch before Day 3 (Fri Jul 3)</strong> — Gullane Golf Club, 11:04 AM.
+                    <a href="ITINERARY.html">→ Day 3 in Itinerary</a>
+                </div>
+                <div class="video-embed">
+                    <iframe
+                        src="https://www.youtube.com/embed/7Ef3puMe-Ac?rel=0&modestbranding=1"
+                        title="Scotland's Golf Coast — Un/Official Guide to Scotland Ep. 5"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                <div class="video-notes">
+                    <p>
+                        <strong>What to watch for:</strong> The East Lothian landscape — heathland turning
+                        to links, the Firth of Forth always somewhere on the horizon, the quiet village
+                        feel of Gullane. This episode captures the atmosphere of the Golf Coast better
+                        than any travel piece you'll find. The duck has strong opinions about golf and
+                        will remind you of someone you know.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- SECTION 2: FIFE & ST ANDREWS -->
+            <!-- ============================================================ -->
+            <div class="region-banner" id="st-andrews">
+                <h2>🏴󠁧󠁢󠁳󠁣󠁴󠁿 Fife &amp; St Andrews — The Home of Golf</h2>
+                <span class="region-days">Days 4–6 · Sat Jul 4 through Mon Jul 6</span>
+            </div>
+
+            <p style="color: #555; font-size: 1rem; line-height: 1.7; margin-bottom: 0.5rem;">
+                Three nights in St Andrews with Dumbarnie Links confirmed (Sunday) and the
+                Old Course ballot live across two attempts. These three episodes cover the
+                courses, coastline, and atmosphere of the Fife peninsula you'll be living
+                in for the middle of the trip.
+            </p>
+
+            <!-- Episode 6 -->
+            <div class="video-card" id="ep6">
+                <div class="video-card-header">
+                    <span class="episode-badge">Episode 6</span>
+                    <h3>Skipped School for the 11th Oldest Course in the World</h3>
+                </div>
+                <div class="when-to-watch">
+                    ⏰ <strong>Watch on arrival in St Andrews (Sat Jul 4 evening)</strong> — sets the
+                    Fife coastal mood. Leven Links is a short drive from Dumbarnie.
+                    <a href="ITINERARY.html">→ Days 4–6 in Itinerary</a>
+                </div>
+                <div class="no-embed-card">
+                    <p>
+                        Episode 6 covers Leven Links — one of the oldest clubs in Fife, just a few miles
+                        from Dumbarnie Links where you're playing Sunday. It's the <em>regional
+                        flavour</em> episode: the East Neuk fishing villages, the Fife coastline character,
+                        the sense of history that saturates every old links course in this corner of Scotland.
+                        Watch it on the playlist — it's right after Episode 5.
+                    </p>
+                    <a
+                        href="https://www.youtube.com/playlist?list=PLcfxZ-vYaEtb_Cle4jdqaxxx85LaaV_Dr"
+                        target="_blank"
+                        class="watch-btn"
+                    >
+                        ▶ Watch Episode 6 on YouTube
+                    </a>
+                </div>
+                <div class="video-notes">
+                    <p>
+                        <strong>What to watch for:</strong> The East Neuk atmosphere — the stone walls,
+                        the sea wind, the courses that look like they grew out of the ground rather than
+                        being designed. This is the mood you'll be in for Days 4–6.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Episode 7 -->
+            <div class="video-card" id="ep7">
+                <div class="video-card-header">
+                    <span class="episode-badge">Episode 7</span>
+                    <h3>Magical Round at Kingsbarns</h3>
+                </div>
+                <div class="when-to-watch">
+                    ⏰ <strong>Watch Saturday night (Jul 4) or before Dumbarnie (Sun Jul 5)</strong> —
+                    Kingsbarns is a few miles from Dumbarnie on the same stretch of Fife coast.
+                    <a href="ITINERARY.html">→ Day 5 in Itinerary</a>
+                </div>
+                <div class="video-embed">
+                    <iframe
+                        src="https://www.youtube.com/embed/_w-dshow8_M?rel=0&modestbranding=1"
+                        title="Magical Round at Kingsbarns — Un/Official Guide to Scotland Ep. 7"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                <div class="video-notes">
+                    <p>
+                        <strong>What to watch for:</strong> The Firth of Forth from the Fife side — the
+                        same views you'll have at Dumbarnie, which is right down the road. Kingsbarns and
+                        Dumbarnie share the same dramatic clifftop-and-beach DNA. Notice how the course
+                        plays into and across the wind from the sea — that's exactly what you'll face
+                        Sunday morning at 8:50 AM. Erik's joy here is infectious. It'll get you ready.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Episode 8 -->
+            <div class="video-card" id="ep8">
+                <div class="video-card-header">
+                    <span class="episode-badge">Episode 8</span>
+                    <h3>We Surprised Stuart — Twice — at The Old Course, St Andrews</h3>
+                </div>
+                <div class="when-to-watch urgent">
+                    ⏰ <strong>Watch the night you win the ballot.</strong> Either Thu Jul 2 evening
+                    (arrive Gullane, check your results) or Sat Jul 4 evening in St Andrews.
+                    Save it for when you know you're playing.
+                    <a href="ITINERARY.html">→ Old Course Ballot Strategy</a>
+                </div>
+                <div class="video-embed">
+                    <iframe
+                        src="https://www.youtube.com/embed/7CMYM2YDKOM?rel=0&modestbranding=1"
+                        title="We Surprised Stuart at The Old Course — Un/Official Guide to Scotland Ep. 8"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                <div class="video-notes">
+                    <p>
+                        <strong>What to watch for:</strong> The whole thing — but specifically the first
+                        tee, the walk down 18, and the Swilcan Bridge moment. Erik captures what it actually
+                        <em>feels</em> like to stand on that course for the first time — the weight of it,
+                        the history underfoot. Notice the road behind the 17th green. Notice Hell Bunker
+                        yawning in the middle of the 14th. Notice how the town is right there, houses
+                        lining the edges of the fairways. <strong>This is what you're going for.</strong>
+                        Watch it when you know you've won.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- FULL PLAYLIST -->
+            <!-- ============================================================ -->
+            <div class="full-playlist" id="full-playlist">
+                <h3>📺 The Full Series</h3>
+                <p>All 13+ episodes — start from Ep. 1 or jump to any course. There's no bad episode.</p>
+                <div class="video-embed" style="margin: 0; border-radius: 10px;">
+                    <iframe
+                        src="https://www.youtube.com/embed/videoseries?list=PLcfxZ-vYaEtb_Cle4jdqaxxx85LaaV_Dr&rel=0&modestbranding=1"
+                        title="The Un/Official Guide to Golf in Scotland — Full Playlist"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+
+            <div class="quote" style="margin-top: 2rem;">
+                <blockquote>
+                    <p>
+                        "Golf in Scotland isn't just a sport. It's a relationship with the land,
+                        the weather, and four hundred years of people who played these same holes."
+                    </p>
+                </blockquote>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-btn">🏠 Back to Home</a>
+                <a href="ITINERARY.html" class="nav-btn">📅 Full Itinerary</a>
+                <a href="MAP.html" class="nav-btn">🗺️ Trip Map</a>
+                <a href="BOOKING-CHECKLIST.html" class="nav-btn">✅ Bookings</a>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>
+                🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Golf Adventure 2026 · July 1–9 ·
+                <a href="https://www.youtube.com/playlist?list=PLcfxZ-vYaEtb_Cle4jdqaxxx85LaaV_Dr" target="_blank">Un/Official Guide to Scotland</a>
+            </p>
+        </footer>
+    </body>
+</html>

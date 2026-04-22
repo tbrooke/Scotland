@@ -19,45 +19,49 @@
 
 ## Golf Courses
 
-1. **Gullane #2 or #3** (Sat Jul 4) — ⚠️ REBOOK (was Jul 18) | 11:04 AM
-2. **St Andrews Old Course** (Sun Jul 5 or Tue Jul 7) — 🎰 Ballot dependent
+1. **Gullane #2 or #3** (Fri Jul 3) — ⚠️ REBOOK (was Jul 18) | 11:04 AM
+2. **St Andrews Old Course** (Sat Jul 4 or Mon Jul 6) — 🎰 Ballot dependent
 3. **Dumbarnie Links** (Sun Jul 5) — ✅ CONFIRMED | 08:50 AM, Ref: 59655
-4. **Carnoustie Burnside** (Tue Jul 7, optional if no ballot) — £90–110
-5. **Boat of Garten Golf Club** (Wed Jul 8) — walk-up, 9 or 18 holes | £50–70
+4. **Crail Balcomie Links** (Mon Jul 6 — backup if Ballot #2 lost)
+5. **Boat of Garten Golf Club** (Tue Jul 7) — walk-up, 9 or 18 holes | £50–70
+6. **Dunbar Golf Club** (Wed Jul 8) — TO BE BOOKED | £50–75
 
 ## The Old Course Strategy
 
 🎰 **Two ballot attempts!**
 
-- ⚠️ Ballot #1: Enter BEFORE boarding July 1 flight — by 9 AM Charlotte time (2 PM UK)
-- For Saturday July 5 play | Results: Thursday July 3 at 4:30 PM UK
-- Ballot #2: Enter Sunday July 5 by 2 PM for Tuesday July 7 play | Results 4:30 PM same day
+- Ballot #1: Enter from **Heathrow T5** on Thu Jul 2 by 2 PM UK (9 AM ET)
+- For Saturday July 4 play | Results: Thursday July 2 at ~4:30 PM UK (check on arrival in Gullane)
+- Ballot #2: Enter Sat Jul 4 by 2 PM UK — for Monday July 6 play | Results Sat Jul 4 at ~4:30 PM same day
 
 ## Booking Status
 
 ✅ Confirmed:
 - [x] Flights — AA 732 + AA 7161 outbound / AA 279 + AA 2573 return (Conf: FNLSDB)
 - [x] Dumbarnie Links — 08:50 AM Sun Jul 5 | Ref: 59655 | Contact: Jackie Wright | +44 (0)1334 845 945
+- [x] Maule House, Gullane (Reg EL00404F) — Thu Jul 2–Sat Jul 4 (2 nights)
+- [x] Howard Place, St Andrews (HM9YNTRBMN, Host: Emma) — Sat Jul 4–Mon Jul 6 (2 nights)
 - [x] St Andrews Links ballot account — CREATED
 
 🚨 Urgent — Action Required:
-- [ ] **Rebook Gullane** — 11:04 AM tee time Jul 18 → **Sat Jul 4** | +44 1620 842255
-- [ ] Verify St Andrews Links account active for new ballot dates
+- [ ] **Rebook Gullane** — 11:04 AM tee time Jul 18 → **Fri Jul 3** | +44 1620 842255
 
 📋 To Be Booked — Accommodations:
-- [ ] Gullane Village Apartment (Maule House) — 2 nights: Thu Jul 2 & Fri Jul 3
-- [ ] Georgian Sandstone Apartment, St Andrews — 2 nights: Sat Jul 5 & Sun Jul 6, checkout Mon Jul 7
+- [ ] Night 5 (Mon Jul 6): St Andrews area OR en route north (Dundee/Perth) — depends on ballot result
 - [ ] Highland Airbnb (Grantown-on-Spey or Aviemore, 3 bedrooms) — Night 6: Tue Jul 7
 - [ ] Edinburgh Airport hotel — Night 7: **Wed Jul 8** | Recommended: Dakota Edinburgh
 
 📋 To Be Booked — Tee Times / Tours:
-- [ ] Crail Balcomie Links — backup Sat Jul 5 (if no Ballot #1 win) | bookings@crailgolfingsociety.co.uk
-- [ ] **Glenfarclas Distillery — Jul 8 — BOOK THIS WEEK** | glenfarclas.com | +44 (0)1807 500345
-- [ ] Boat of Garten Golf Club — Jul 8 morning (walk-up, no pre-booking required)
+- [ ] Crail Balcomie Links — backup **Mon Jul 6** (if Ballot #2 lost) | bookings@crailgolfingsociety.co.uk
+- [ ] **Dunbar Golf Club — Wed Jul 8 AM — NEW ADDITION** | £50–75
+- [ ] **Glenfarclas Distillery — Tue Jul 7 PM — BOOK THIS WEEK** | glenfarclas.com | +44 (0)1807 500345
+- [ ] Boat of Garten Golf Club — Tue Jul 7 morning (walk-up, no pre-booking required)
+- [ ] Blair Athol Distillery — Mon Jul 6 or Tue Jul 7 en route north (on A9 at Pitlochry)
 
 ◇ Critical Ballot Actions:
-- [ ] Ballot #1 — Thu Jul 3 by 2 PM UK — enter from Gullane for Saturday July 5 | Results Thu Jul 3 at 4:30 PM (same day)
-- [ ] Ballot #2 — Sat Jul 5 by 2 PM UK — enter from St Andrews for Monday July 6 | Results Sat Jul 5 at 4:30 PM (same day)
+- [ ] Ballot #1 — **Thu Jul 2** by 2 PM UK — enter from **Heathrow T5** for **Saturday July 4** | Results Thu Jul 2 at ~4:30 PM (same day — check on arrival Gullane)
+- [ ] Ballot #2 — **Sat Jul 4** by 2 PM UK — enter from St Andrews for **Monday July 6** | Results Sat Jul 4 at ~4:30 PM (same day)
+- [ ] NEVER enter a Sunday ballot — Old Course closed every Sunday
 
 ## Contributing
 
