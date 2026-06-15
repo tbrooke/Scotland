@@ -52,11 +52,17 @@ Evening:
   He knows the best restaurants in the city
   Early night — big week of golf ahead
 
-🏠 ACCOMMODATION: Edinburgh City Centre Hotel
-  Sheraton Grand Edinburgh recommended (Marriott portfolio, Marriott points preferred)
-  3 rooms, Tuesday June 30 only
-  Request early check-in — arriving on overnight flight
-  STATUS: TO BE BOOKED
+🏠 ACCOMMODATION: Edinburgh Marriott Hotel Holyrood ✅ CONFIRMED
+  Address: 81 Holyrood Road, Edinburgh EH8 8AU
+  📞 +44-131-528-8000 | Confirmation: 94880250
+  1 Family Room — 1 Queen + 2 Twin beds, 3 adults | Total: £621.00
+  Check-in: Tuesday June 30 (standard 3 PM) | Check-out: Wednesday July 1, 12:00 PM
+  Old Town — 5 min walk to Holyrood Palace & Scottish Parliament
+  ~15 min walk to Waverley Station | ~30 min from Edinburgh Airport
+  Full-service: indoor pool, sauna, gym, spa, restaurant, 24-hr room service
+  Parking: on-site secure ~£25/day (or Dynamic Earth 0.1km away)
+  On arrival (7:40 AM): drop bags with front desk, request early check-in,
+  use hotel pool/sauna/gym while waiting — perfect recovery after overnight flight
 
 ---
 
@@ -136,6 +142,14 @@ Evening:
   Dinner in Gullane village
   The Bonnie Badger or The Old Clubhouse
 
+🎲 OLD COURSE BALLOT — ENTER TONIGHT OR TOMORROW MORNING:
+  Enter by 2:00 PM UK time on Thursday July 2
+  For: Saturday July 4 play date
+  Via: booking.standrews.com
+  Results: Thursday July 2 at 4:30 PM UK time — same day
+  Handicap required: max 36 men | Digital GHIN certificate acceptable
+  If won: Old Course on Independence Day 🇺🇸
+
 ---
 
 Day 5: Friday, July 3 — Castle Course Day — St Andrews Bound
@@ -180,21 +194,25 @@ Evening:
 
 ---
 
-Day 6: Saturday, July 4 — Independence Day in St Andrews 🇺🇸
-📍 NO GOLF — Rest and celebration day
+Day 6: Saturday, July 4 — Independence Day 🇺🇸 — Old Course Ballot Day
+⛳ GOLF: Old Course (if ballot won) | Flexible day if not
 
-Morning:
-  Relaxed breakfast in apartment
-  Explore St Andrews on foot — everything walkable
+Ballot results from Thursday July 2 at 4:30 PM UK time determine the day.
 
-Afternoon:
-  Walk the Old Course (open to walkers Saturdays — fairways free to walk)
-  Stand on Swilcan Bridge — photos
-  Walk the 18th fairway
-  St Andrews Cathedral ruins — stunning at low light
-  British Golf Museum (next to Old Course)
-  West Sands Beach — Chariots of Fire filming location
-  Market Street shopping and cafes
+OPTION A — Ballot Won:
+⛳ THE OLD COURSE — tee time as assigned by ballot
+  Home of Golf since 1552
+  Swilcan Bridge, Hell Bunker, the Road Hole
+  Bring digital GHIN handicap certificates — required at starter
+  The dream round, on the 4th of July
+  Old Course is open to walkers Saturdays after rounds
+
+OPTION B — Ballot Not Won:
+  Play a St Andrews Links alternative (no ballot needed):
+    New Course, Jubilee Course, or Eden Course
+  OR walk the Old Course fairways (open to public Saturdays — free)
+    Swilcan Bridge photos, stand on 18th green
+  OR rest day: Cathedral, British Golf Museum, West Sands Beach, Market Street
 
 Evening:
   🥂 Independence Day celebration dinner
@@ -202,7 +220,7 @@ Evening:
   The Dunvegan — golf memorabilia, great pub atmosphere
   OR The Adamson (French bistro, upscale)
   Open a good bottle back at the apartment
-  Best night of the trip — embrace it
+  Best night of the trip — whatever the morning brings
 
 ---
 
@@ -271,12 +289,18 @@ Evening:
 Day 8: Monday, July 6 — Highland Golf & Farewell Scotland
 ⛳ GOLF: Nairn Dunbar Golf Club
 
-🏌️ Nairn Dunbar Golf Club — Early tee time, on course by 8:30 AM
+🏌️ 09:00 AM — Nairn Dunbar Golf Club ✅ CONFIRMED & PAID
+  Booking Ref: 82242 | Total Paid: £420.00 (3 players) ✅
+  Contact: office@nairndunbar.com | 📞 01667 452741
   Address: Lochloy Road, Nairn IV12 5AE
-  📞 +44 (0)1667 452741 | nairndunbar.com
-  Moray Firth coastal links | Compact and enjoyable
-  2 min drive or short walk from cottage
-  STATUS: TO BE BOOKED — Monday July 6 early
+  Players: 3 booked (4th slot may be filled by club)
+  Championship links, par 72, 6,765 yards | Slope 135
+  Traditional Scottish links on the Moray Firth — a proper test
+  2 min drive / short walk from 51 Society Street cottage
+  Catering only needs booking for parties of 8+
+  Buggies and services available on request in advance
+  Clubhouse bar and dining available
+  Showers and changing facilities for visitors
 
 After round:
   Lunch at clubhouse or back at cottage
@@ -374,15 +398,17 @@ Round 4 — Sunday July 5
 
 Round 5 — Monday July 6
   Nairn Dunbar Golf Club
-  Early morning tee time 🔴 TO BE BOOKED
-  Moray Firth coastal links
+  Tee time: 09:00 AM ✅ CONFIRMED & PAID
+  Ref: 82242 | £420.00 paid (3 players)
+  Contact: office@nairndunbar.com | 01667 452741
+  Championship links, par 72, 6,765 yards | Slope 135
   2 min from cottage — most relaxed commute of the trip
 
 OPTIONAL — Sons only:
   Gullane #2 — Friday July 3 morning before Castle Course
   If energy allows after Gullane #1 Thursday
 
-TOTAL CONFIRMED ROUNDS: 4
+TOTAL CONFIRMED ROUNDS: 5
 TOTAL POSSIBLE ROUNDS: 5–6 depending on sons' energy
 NO Old Course ballot — Castle Course confirmed for Fri Jul 3
 
@@ -391,12 +417,12 @@ NO Old Course ballot — Castle Course confirmed for Fri Jul 3
 🏠 ACCOMMODATION SUMMARY
 
 Night 1 — Tuesday June 30:
-  Sheraton Grand Edinburgh (Marriott portfolio)
-  Festival Square, Edinburgh city centre
-  3 separate rooms | Marriott points preferred
-  Request early check-in — arriving on overnight transatlantic flight
-  Hotel (not Airbnb): restaurant/bar on site, hotel service, no self-catering on exhausted arrival
-  STATUS: TO BE BOOKED
+  Edinburgh Marriott Hotel Holyrood ✅ CONFIRMED
+  Address: 81 Holyrood Road, Edinburgh EH8 8AU | Conf: 94880250
+  1 Family Room (Queen + 2 Twins) | Total: £621.00
+  Check-in: Tue Jun 30 (standard 3 PM) | Check-out: Wed Jul 1, 12:00 PM
+  Old Town — 5 min walk Holyrood Palace | Indoor pool, spa, restaurant, 24-hr service
+  On arrival (7:40 AM): drop bags, request early check-in, use pool/gym/sauna
 
 Nights 2, 3, 4 — Wednesday July 1, Thursday July 2, Friday July 3:
   Maule House, Gullane — Reg: EL00404F
@@ -434,31 +460,47 @@ Nights 7, 8 — Sunday July 5, Monday July 6:
 
 📋 BOOKING STATUS
 
-✅ CONFIRMED:
-  Flights — AA FNLSDB (AA 1838 + AA 278 outbound / AA 279 + AA 2573 return) — June 29 departure, July 7 return
-  Dunbar Golf Club — Wednesday July 1, 2:21 PM | Contact: Verena Wilthew | Verena@dunbargolfclub.com
-  Gullane Golf Club #1 — Thursday July 2, 11:28 AM | Contact: Dylan | Green fees paid
-  St Andrews Castle Course — Friday July 3, 3:00 PM
-  Dumbarnie Links — Sunday July 5, 08:50 AM | Ref: 59655 | Jackie Wright | +44 (0)1334 845 945
-  Maule House, Gullane (EL00404F) — 3 nights Jul 1–3 | 8 Maule Terrace EH31 2DB
-  Georgian Sandstone Apartment, St Andrews — 2 nights Fri Jul 3 + Sat Jul 4
-  51 Society Street, Nairn — Monday July 6
+✅ CONFIRMED & PAID — EVERYTHING EXCEPT RENTAL CAR:
 
-⚠️ REQUIRES IMMEDIATE ACTION:
-  Call AA (FNLSDB) — seats 24H, 13L, 13E on AA 278 PHL→EDI NOT together; request 3 seats together
-  Book Edinburgh hotel — Sheraton Grand Edinburgh (Marriott portfolio), 3 rooms, Tuesday June 30
+  FLIGHTS (AA — Conf: FNLSDB):
+    AA 1838 CLT→PHL — June 29, 4:45 PM | Seats: 8A, 8B, 8C
+    AA 278 PHL→EDI — June 29, 7:35 PM → arrives June 30, 7:40 AM
+    AA 279 EDI→PHL — July 7, 11:25 AM
+    AA 2573 PHL→CLT — July 7, 3:50 PM
 
-📋 TO BE BOOKED — THIS WEEK:
-  Edinburgh hotel — Sheraton Grand Edinburgh, 3 rooms, Tuesday June 30
-  Nairn Dunbar Golf Club — Monday July 6, early tee time | nairndunbar.com | +44 (0)1667 452741
-  Afternoon Mon Jul 6 — Glenfarclas Distillery (recommended) | glenfarclas.com | +44 (0)1807 500345
-    OR Glen Ord Distillery + Clava Cairns (~20 min from Nairn)
-    OR Cawdor Castle (~15 min from Nairn)
-  Caddies at Dumbarnie — request in advance: caddiemaster@dumbarnielinks.com
+  GOLF (all 5 rounds confirmed):
+    Dunbar Golf Club — Wed Jul 1, 2:21 PM | Verena Wilthew | Verena@dunbargolfclub.com
+    Gullane Golf Club #1 — Thu Jul 2, 11:28 AM | Dylan | Green fees paid
+    St Andrews Castle Course — Fri Jul 3, 3:00 PM
+    Dumbarnie Links — Sun Jul 5, 08:50 AM | Ref: 59655 | Jackie Wright | +44 (0)1334 845 945
+    Nairn Dunbar Golf Club — Mon Jul 6, 09:00 AM | Ref: 82242 | £420.00 paid
 
-📋 DINNER BOOKINGS RECOMMENDED:
-  The Bonnie Badger, Gullane — reserve 8:00 PM Wednesday July 1 (arriving late after Dunbar)
-  The Classroom, Nairn — Monday July 6 evening (last night in Scotland)
+  ACCOMMODATION (all 8 nights confirmed):
+    Edinburgh Marriott Hotel Holyrood — Tue Jun 30 | Conf: 94880250 | £621.00
+    Maule House, Gullane (EL00404F) — 3 nights Jul 1–3
+    Georgian Sandstone Apartment, St Andrews — 2 nights Fri Jul 3 + Sat Jul 4
+    51 Society Street, Nairn — 2 nights Sun Jul 5 + Mon Jul 6
+
+🔴 STILL TO BOOK — ONE ITEM REMAINING:
+  RENTAL CAR
+    Pickup: Edinburgh Airport, Tuesday June 30 (~8:30 AM after collecting bags)
+    Return: Edinburgh Airport, Tuesday July 7 (~8:45 AM)
+    Requirements:
+      Estate/wagon or large SUV — 3 adults + 3 golf bags + luggage
+      Automatic transmission (confirm — manual is UK default)
+      Driving on the left | Sons are designated drivers
+      Long legs: St Andrews→Nairn (~2h 45m), Nairn→Airport (~2h 15m)
+      Consider extra insurance for international driving
+
+📋 PRE-TRIP CHECKLIST (not bookings — reminders):
+  UK ETA — apply via GOV.UK for all 3 travellers before departure
+  GHIN handicaps — established before Thursday July 2 (Old Course ballot day)
+  Passports valid through July 7, 2026 — confirm
+  Call AA (FNLSDB) — seats 24H, 13L, 13E on PHL→EDI NOT together; request seats together
+  Old Course ballot — enter Thursday July 2 by 2:00 PM UK time at booking.standrews.com
+  Bonnie Badger, Gullane — reserve 8:00 PM Wednesday July 1 (arriving late after Dunbar)
+  Dumbarnie caddies — request in advance: caddiemaster@dumbarnielinks.com
+  Reply to Verena at Dunbar Golf Club with phone number & travelling-from details
 
 ---
 
