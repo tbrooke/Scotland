@@ -24,7 +24,7 @@
 | 3 | Wed Jul 1 | Dunbar → Gullane | ⛳ Dunbar Golf Club 2:21 PM ✅ |
 | 4 | Thu Jul 2 | Gullane | ⛳ Gullane #1 Championship 11:28 AM ✅ |
 | 5 | Fri Jul 3 | Gullane → St Andrews | ⛳ Castle Course 3:00 PM ✅ |
-| 6 | Sat Jul 4 | St Andrews | 🇺🇸 Independence Day — walk Old Course, Cathedral |
+| 6 | Sat Jul 4 | St Andrews | 🇺🇸🎲 Independence Day — Old Course ballot (if won) or explore St Andrews |
 | 7 | Sun Jul 5 | Dumbarnie → Nairn | ⛳ Dumbarnie Links 08:50 AM ✅ |
 | 8 | Mon Jul 6 | Nairn | ⛳ Nairn Dunbar 09:00 AM ✅ Ref 82242 + Glenfarclas/Glen Ord/Cawdor |
 | 9 | Tue Jul 7 | Nairn → Edinburgh → Home | Depart 6:30 AM, fly 11:25 AM |

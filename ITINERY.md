@@ -147,7 +147,7 @@ Evening:
   For: Saturday July 4 play date
   Via: booking.standrews.com
   Results: Thursday July 2 at 4:30 PM UK time — same day
-  Handicap required: max 36 men | Digital GHIN certificate acceptable
+  Handicap required: max 36 men and ladies | Digital GHIN certificate acceptable
   If won: Old Course on Independence Day 🇺🇸
 
 ---
@@ -247,7 +247,7 @@ Old Course CLOSED Sundays — a centuries-old Scottish tradition; fairways open 
   The Old Barn restaurant — spectacular views, food all day
 
   CANCELLATION POLICY:
-  Cancel by June 5 for refund | Non-refundable within 30 days
+  Non-refundable — cancellation deadline has passed
   Travel insurance strongly recommended
 
   CADDIES — STRONGLY RECOMMENDED:
@@ -409,8 +409,7 @@ OPTIONAL — Sons only:
   If energy allows after Gullane #1 Thursday
 
 TOTAL CONFIRMED ROUNDS: 5
-TOTAL POSSIBLE ROUNDS: 5–6 depending on sons' energy
-NO Old Course ballot — Castle Course confirmed for Fri Jul 3
+TOTAL POSSIBLE ROUNDS: 5–6 depending on sons' energy (+ Old Course if ballot won)
 
 ---
 
