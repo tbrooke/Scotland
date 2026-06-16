@@ -55,12 +55,17 @@
 
 Optional: Sons play Gullane #2 Friday morning before Castle Course (if energy allows)
 
-## Booking Status — Everything Confirmed Except Rental Car
+## Booking Status — TRIP FULLY BOOKED ✅
 
 ✅ Confirmed & Paid — Flights (AA FNLSDB):
 - [x] AA 1838 CLT→PHL — June 29, 4:45 PM | Seats: 8A, 8B, 8C
 - [x] AA 278 PHL→EDI — June 29, 7:35 PM → arrives June 30, 7:40 AM
 - [x] AA 279 EDI→PHL — July 7, 11:25 AM | AA 2573 PHL→CLT — July 7, 3:50 PM
+
+✅ Confirmed — Rental Car (Avis, NC Bar rate):
+- [x] Standard Wagon (BYD Seal 6 Estate or similar) | Automatic | ~$800 total
+- [x] Pickup: Edinburgh Airport Tue Jun 30 ~8:30 AM | Return: Tue Jul 7 ~8:45 AM
+- [x] Full damage coverage | 3 named drivers: Thomas, Richard, Maxwell
 
 ✅ Confirmed & Paid — All 5 Golf Rounds:
 - [x] Dunbar Golf Club — Wed Jul 1, 2:21 PM | Verena Wilthew | Verena@dunbargolfclub.com
@@ -75,13 +80,10 @@ Optional: Sons play Gullane #2 Friday morning before Castle Course (if energy al
 - [x] Georgian Sandstone Apartment, St Andrews — 2 nights Fri Jul 3 + Sat Jul 4
 - [x] 51 Society Street, Nairn — 2 nights Sun Jul 5 + Mon Jul 6
 
-🔴 One Remaining Booking — Rental Car:
-- [ ] **Rental car** — Edinburgh Airport pickup Tue Jun 30 ~8:30 AM, return Tue Jul 7 ~8:45 AM
-  Estate/wagon or large SUV | Automatic transmission (confirm) | 3 adults + 3 golf bags
-
 📋 Pre-Trip Checklist (reminders, not bookings):
-- [ ] **UK ETA** — apply via GOV.UK for all 3 travellers before departure
-- [ ] **GHIN handicaps** — established before Thursday July 2 (ballot day; max HCP 36)
+- [ ] **UK ETA** — apply via official GOV.UK site for all 3 travellers (~£20 each)
+- [ ] **GHIN handicaps** — established before Thursday July 2 (ballot day; Gullane #1 max 24 men)
+- [ ] **IDP** — International Driving Permit from AAA for all named drivers ($20 each)
 - [ ] **Passports valid** — confirm through July 7, 2026
 - [ ] **Call AA (FNLSDB)** — seats 24H, 13L, 13E on PHL→EDI NOT together; request seats together
 - [ ] **Old Course ballot** — enter Thu Jul 2 by 2 PM UK at booking.standrews.com | results 4:30 PM

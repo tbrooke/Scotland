@@ -460,13 +460,27 @@ Nights 7, 8 — Sunday July 5, Monday July 6:
 
 📋 BOOKING STATUS
 
-✅ CONFIRMED & PAID — EVERYTHING EXCEPT RENTAL CAR:
+🎉 TRIP FULLY BOOKED ✅ — EVERYTHING CONFIRMED & PAID
 
   FLIGHTS (AA — Conf: FNLSDB):
     AA 1838 CLT→PHL — June 29, 4:45 PM | Seats: 8A, 8B, 8C
     AA 278 PHL→EDI — June 29, 7:35 PM → arrives June 30, 7:40 AM
     AA 279 EDI→PHL — July 7, 11:25 AM
     AA 2573 PHL→CLT — July 7, 3:50 PM
+
+  RENTAL CAR ✅ CONFIRMED — Avis (NC Bar Association rate):
+    Vehicle: Standard Wagon — BYD Seal 6 Estate or similar (free upgrade via NC Bar)
+    Transmission: Automatic ✅
+    Pickup: Edinburgh Airport, Tuesday June 30 (~8:30 AM after arrival)
+    Return: Edinburgh Airport, Tuesday July 7 (~8:45 AM)
+    Drivers: Thomas, Richard, Maxwell — all 3 named (2 additional drivers added)
+    Coverage: Full damage coverage / excess waiver included
+    Total: ~$800 (car + damage coverage + 2 additional drivers)
+    Flight AA 278 added to reservation for arrival tracking
+    Confirm vehicle is petrol/diesel/hybrid (not pure EV) for Highland drives
+    Driving on the left | Estate chosen for 3 golf bags + luggage + 3 passengers
+    Credit card hold at pickup (primary renter's card)
+    Long legs: St Andrews→Nairn (~2h 45m) | Nairn→Edinburgh Airport (~2h 15m)
 
   GOLF (all 5 rounds confirmed):
     Dunbar Golf Club — Wed Jul 1, 2:21 PM | Verena Wilthew | Verena@dunbargolfclub.com
@@ -481,20 +495,10 @@ Nights 7, 8 — Sunday July 5, Monday July 6:
     Georgian Sandstone Apartment, St Andrews — 2 nights Fri Jul 3 + Sat Jul 4
     51 Society Street, Nairn — 2 nights Sun Jul 5 + Mon Jul 6
 
-🔴 STILL TO BOOK — ONE ITEM REMAINING:
-  RENTAL CAR
-    Pickup: Edinburgh Airport, Tuesday June 30 (~8:30 AM after collecting bags)
-    Return: Edinburgh Airport, Tuesday July 7 (~8:45 AM)
-    Requirements:
-      Estate/wagon or large SUV — 3 adults + 3 golf bags + luggage
-      Automatic transmission (confirm — manual is UK default)
-      Driving on the left | Sons are designated drivers
-      Long legs: St Andrews→Nairn (~2h 45m), Nairn→Airport (~2h 15m)
-      Consider extra insurance for international driving
-
 📋 PRE-TRIP CHECKLIST (not bookings — reminders):
-  UK ETA — apply via GOV.UK for all 3 travellers before departure
-  GHIN handicaps — established before Thursday July 2 (Old Course ballot day)
+  UK ETA — apply via official GOV.UK site for all 3 travellers (~£20 each)
+  GHIN handicaps — established before Thursday July 2 (ballot day; Gullane #1 max 24 men)
+  IDP (International Driving Permit) — from AAA for all named drivers ($20 each — rental requirement)
   Passports valid through July 7, 2026 — confirm
   Call AA (FNLSDB) — seats 24H, 13L, 13E on PHL→EDI NOT together; request seats together
   Old Course ballot — enter Thursday July 2 by 2:00 PM UK time at booking.standrews.com
