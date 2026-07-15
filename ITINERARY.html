@@ -196,6 +196,106 @@
                 background: #2c5282;
             }
 
+            /* ---- Photo galleries ---- */
+            .ps-heading {
+                margin: 1.75rem 0 0.5rem;
+                color: #1e3a5f;
+                font-weight: bold;
+                font-size: 1.05rem;
+            }
+
+            .photo-strip {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 8px;
+                margin: 0.25rem 0 0.5rem;
+            }
+
+            .photo-strip figure {
+                margin: 0;
+                cursor: pointer;
+                border-radius: 8px;
+                overflow: hidden;
+                background: #000;
+                aspect-ratio: 4 / 3;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            }
+
+            .photo-strip img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.25s ease;
+            }
+
+            .photo-strip figure:hover img {
+                transform: scale(1.06);
+            }
+
+            /* ---- Lightbox ---- */
+            #lb {
+                position: fixed;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.93);
+                display: none;
+                z-index: 1000;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #lb.open {
+                display: flex;
+            }
+
+            #lb img {
+                max-width: 92vw;
+                max-height: 82vh;
+                object-fit: contain;
+                border-radius: 6px;
+                box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+            }
+
+            #lb .cap {
+                position: absolute;
+                bottom: 22px;
+                left: 0;
+                right: 0;
+                text-align: center;
+                color: #fff;
+                font-size: 0.95rem;
+                opacity: 0.9;
+            }
+
+            #lb .x {
+                position: absolute;
+                top: 14px;
+                right: 26px;
+                color: #fff;
+                font-size: 2.2rem;
+                cursor: pointer;
+                line-height: 1;
+            }
+
+            #lb .nav {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #fff;
+                font-size: 2.6rem;
+                cursor: pointer;
+                padding: 0 22px;
+                user-select: none;
+                opacity: 0.8;
+            }
+
+            #lb .nav:hover {
+                opacity: 1;
+            }
+
+            #lb .prev { left: 0; }
+            #lb .next { right: 0; }
+
             @media (max-width: 768px) {
                 .itinerary-header h1 {
                     font-size: 2rem;
@@ -209,6 +309,10 @@
                 .day-quote {
                     margin-top: 0.5rem;
                     font-size: 1rem;
+                }
+
+                .photo-strip {
+                    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
                 }
             }
         </style>
@@ -360,6 +464,8 @@
                         </div>
                     </div>
 
+                    <div class="photo-strip" data-day="2026-07-01"></div>
+
                     <div class="rest-day">⛳ Round 1 — Dunbar Golf Club, 2:21 PM. East Lothian links, Alan's pick.</div>
                 </div>
             </div>
@@ -405,6 +511,8 @@
                         </div>
                     </div>
 
+                    <div class="photo-strip" data-day="2026-07-02"></div>
+
                     <div class="rest-day">⛳ Rounds 2 &amp; 3 — Gullane #1 (all three) + Gullane #2 (the twins). A 36-hole day.</div>
                 </div>
             </div>
@@ -445,6 +553,8 @@
                             <div class="activity">Minutes from the first tee at Kingsbarns — perfect for an early one in the morning</div>
                         </div>
                     </div>
+
+                    <div class="photo-strip" data-day="2026-07-03"></div>
 
                     <div class="rest-day">⛳ Round 4 — Castle Course, 3:00 PM. Then Gullane → Kingsbarns and a night at the Inn.</div>
                 </div>
@@ -500,6 +610,8 @@
                         </div>
                     </div>
 
+                    <div class="photo-strip" data-day="2026-07-04"></div>
+
                     <div class="rest-day">🇺🇸 Round 5 — Kingsbarns at dawn (the twins). Lost both ballots, walked the Old Course, toasted the 4th at The Dunvegan.</div>
                 </div>
             </div>
@@ -540,6 +652,8 @@
                         </div>
                     </div>
 
+                    <div class="photo-strip" data-day="2026-07-05"></div>
+
                     <div class="rest-day">⛳ Round 6 — Dumbarnie Links, 08:50 AM. Then the Himalayas and a lazy afternoon in the Home of Golf.</div>
                 </div>
             </div>
@@ -578,6 +692,8 @@
                         <div class="activity">Back to the St Andrews apartment — a good bottle and stories from the week</div>
                         <div class="activity">No 6 AM Highland departure to dread — just a short run to Edinburgh in the morning</div>
                     </div>
+
+                    <div class="photo-strip" data-day="2026-07-06"></div>
 
                     <div class="rest-day">⛳ Rounds 7 &amp; 8 — Kingsbarns (Gary on Dad's bag) then Elie's last tee. Two links in one perfect final day.</div>
                 </div>
@@ -826,5 +942,79 @@
                 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Golf Adventure 2026 • June 29 – July 7 • Memories last forever
             </p>
         </footer>
+
+        <!-- Lightbox -->
+        <div id="lb">
+            <span class="x">&times;</span>
+            <span class="nav prev">&#10094;</span>
+            <img alt="" />
+            <span class="nav next">&#10095;</span>
+            <div class="cap"></div>
+        </div>
+
+        <script>
+            // Base URL where the trip photos are hosted (Cloudflare R2).
+            // Must end with a slash; the manifest paths are "large/..." and "thumb/...".
+            const R2_BASE = "https://pub-ab4033c17b22435d834bfb808fe979b9.r2.dev/";
+            // On localhost use the local copies; live (GitHub Pages) uses R2.
+            const PHOTO_BASE =
+                location.hostname === "localhost" || location.hostname === "127.0.0.1"
+                    ? ""
+                    : R2_BASE;
+
+            (function () {
+                const lb = document.getElementById("lb");
+                const lbimg = lb.querySelector("img");
+                const cap = lb.querySelector(".cap");
+                let flat = [], cur = 0;
+
+                function openAt(i) { cur = i; show(); lb.classList.add("open"); }
+                function show() {
+                    const p = flat[cur];
+                    lbimg.src = PHOTO_BASE + p.large;
+                    cap.textContent = (p.time ? p.time + " · " : "") + p.venue;
+                }
+                function close() { lb.classList.remove("open"); lbimg.src = ""; }
+                function step(d) { cur = (cur + d + flat.length) % flat.length; show(); }
+
+                lb.querySelector(".x").onclick = close;
+                lb.querySelector(".prev").onclick = (e) => { e.stopPropagation(); step(-1); };
+                lb.querySelector(".next").onclick = (e) => { e.stopPropagation(); step(1); };
+                lb.onclick = (e) => { if (e.target === lb) close(); };
+                document.addEventListener("keydown", (e) => {
+                    if (!lb.classList.contains("open")) return;
+                    if (e.key === "Escape") close();
+                    if (e.key === "ArrowRight") step(1);
+                    if (e.key === "ArrowLeft") step(-1);
+                });
+
+                fetch("photos.json")
+                    .then((r) => r.json())
+                    .then((photos) => {
+                        const byday = {};
+                        photos.forEach((p) => { (byday[p.day] = byday[p.day] || []).push(p); });
+                        document.querySelectorAll(".photo-strip").forEach((strip) => {
+                            const ph = byday[strip.dataset.day] || [];
+                            if (!ph.length) { strip.remove(); return; }
+                            const h = document.createElement("div");
+                            h.className = "ps-heading";
+                            h.textContent = "📸 Photos from the day (" + ph.length + ")";
+                            strip.parentNode.insertBefore(h, strip);
+                            ph.forEach((p) => {
+                                const idx = flat.length; flat.push(p);
+                                const fig = document.createElement("figure");
+                                const im = document.createElement("img");
+                                im.loading = "lazy";
+                                im.src = PHOTO_BASE + p.thumb;
+                                im.alt = p.venue + (p.time ? " " + p.time : "");
+                                fig.appendChild(im);
+                                fig.onclick = () => openAt(idx);
+                                strip.appendChild(fig);
+                            });
+                        });
+                    })
+                    .catch((err) => console.warn("photos.json not loaded:", err));
+            })();
+        </script>
     </body>
 </html>
