@@ -16,7 +16,7 @@
             <section class="map-section">
                 <h2>Our Journey Through Scotland</h2>
                 <p class="intro-text">
-                    Follow our route from Edinburgh to the Highlands and back
+                    From Edinburgh through East Lothian and into the Kingdom of Fife
                 </p>
                 <div id="map"></div>
                 <div class="map-legend">
@@ -25,10 +25,7 @@
                         <span class="marker golf">⛳</span> Golf Courses
                     </div>
                     <div class="legend-item">
-                        <span class="marker whisky">🥃</span> Distilleries
-                    </div>
-                    <div class="legend-item">
-                        <span class="marker castle">🏰</span> Castles & Sights
+                        <span class="marker castle">🏰</span> Sights &amp; Pubs
                     </div>
                     <div class="legend-item">
                         <span class="marker accommodation">🏨</span> Overnight
@@ -49,8 +46,8 @@
         </footer>
 
         <script>
-            // Initialize map centered on Scotland
-            var map = L.map("map").setView([56.8, -3.2], 7);
+            // Initialize map centered on East Lothian / Fife
+            var map = L.map("map").setView([56.15, -2.85], 9);
 
             // Add OpenStreetMap tiles
             L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -61,12 +58,6 @@
             // Define custom icons
             var golfIcon = L.divIcon({
                 html: '<div class="custom-marker golf">⛳</div>',
-                className: "custom-div-icon",
-                iconSize: [30, 30],
-            });
-
-            var whiskyIcon = L.divIcon({
-                html: '<div class="custom-marker whisky">🥃</div>',
                 className: "custom-div-icon",
                 iconSize: [30, 30],
             });
@@ -86,116 +77,110 @@
             // Night 1 — Tuesday June 30: Edinburgh
             var edinburghHotel = L.marker([55.9495, -3.1777], { icon: hotelIcon })
                 .bindPopup(
-                    "<b>Edinburgh Marriott Hotel Holyrood</b> ✅ CONFIRMED<br>Night 1 — Tuesday June 30 | Conf: 94880250 | £621.00<br>81 Holyrood Road, Edinburgh EH8 8AU<br>1 Family Room (Queen + 2 Twins) | Check-out Wed Jul 1 12:00 PM<br>5 min walk: Holyrood Palace &amp; Scottish Parliament",
+                    "<b>Edinburgh Marriott Hotel Holyrood</b><br>Night 1 — Tuesday June 30 | Conf: 94880250 | £621.00<br>81 Holyrood Road, Edinburgh EH8 8AU<br>Arrival day + dinner with Alan",
                 )
                 .addTo(map);
 
-            // Day 3 — Wednesday July 1: Dunbar Golf Club (en route to Gullane)
+            // Day 3 — Wednesday July 1: Dunbar Golf Club (all three)
             var dunbar = L.marker([56.0024, -2.5127], { icon: golfIcon })
                 .bindPopup(
-                    "<b>Dunbar Golf Club</b> ✅ CONFIRMED<br>Day 3 — Wednesday July 1: 2:21 PM | Green fees paid<br>East Links, Dunbar EH42 1LL<br>Contact: Verena Wilthew | Verena@dunbargolfclub.com | Drive to Gullane after",
+                    "<b>Dunbar Golf Club</b> ⛳ Round 1<br>Wednesday July 1: 2:21 PM | All three of us<br>East Links, Dunbar EH42 1LL<br>Classic East Lothian links — Alan's recommendation",
                 )
                 .addTo(map);
 
-            // Nights 2–4 — July 1, 2, 3: Gullane (Maule House)
+            // Nights 2–3 — July 1, 2: Gullane (Maule House)
             var gullaneApt = L.marker([56.037, -2.8296], { icon: hotelIcon })
                 .bindPopup(
-                    "<b>Maule House, Gullane</b> ✅ CONFIRMED<br>8 Maule Terrace, Central Gullane EH31 2DB | Reg: EL00404F<br>Nights 2–4 — Wed Jul 1, Thu Jul 2, Fri Jul 3<br>1 min walk: The Bonnie Badger (Michelin) + Gullane Golf Club",
+                    "<b>Maule House, Gullane</b><br>8 Maule Terrace, Central Gullane EH31 2DB | Reg: EL00404F<br>Nights 2–3 — Wed Jul 1 &amp; Thu Jul 2<br>1 min walk: The Bonnie Badger (Michelin) + Gullane Golf Club",
                 )
                 .addTo(map);
 
-            // Day 4: Gullane Golf Club #1
+            // Day 4: Gullane Golf Club (#1 all three, #2 the twins — 36 holes)
             var gullane = L.marker([56.0370, -2.8310], { icon: golfIcon })
                 .bindPopup(
-                    "<b>Gullane Golf Club #1</b> ✅ CONFIRMED<br>Day 4 — Thu Jul 2: 11:28 AM | Green fees paid<br>Contact: Dylan | Members for the Day<br>📞 +44 1620 842255",
+                    "<b>Gullane Golf Club</b> ⛳ Rounds 2 &amp; 3<br>Thu Jul 2 — #1 at 11:28 AM (all three)<br>then #2 for the twins — 36 holes on the day<br>Panoramic Firth of Forth views",
                 )
                 .addTo(map);
 
-            // Day 4 afternoon: Dirleton Castle
-            var dirleton = L.marker([56.0427, -2.7779], { icon: castleIcon })
-                .bindPopup(
-                    "<b>Dirleton Castle</b><br>Day 4 afternoon option | 15 min from Gullane<br>13th century ruin | East Lothian",
-                )
-                .addTo(map);
-
-            // Nights 5–6 — Fri Jul 3 + Sat Jul 4: St Andrews
-            var stAndrewsApt = L.marker([56.3398, -2.7967], { icon: hotelIcon })
-                .bindPopup(
-                    "<b>Georgian Sandstone Apartment, St Andrews</b> ✅ CONFIRMED<br>2 nights — Fri Jul 3 + Sat Jul 4 | 3 bedrooms<br>Minutes from Old Course | Market Street 30 seconds<br>Checkout Sun Jul 5 — 7:45 AM departure for Dumbarnie",
-                )
-                .addTo(map);
-
-            // Old Course St Andrews
-            var oldCourse = L.marker([56.3421, -2.8020], { icon: golfIcon })
-                .bindPopup(
-                    "<b>St Andrews Old Course</b><br>Day 6 — Saturday July 4: 🎲 Ballot day!<br>Ballot entered Thu Jul 2 by 2 PM UK | Results 4:30 PM same day<br>Swilcan Bridge, 18th hole | Home of golf since 1552",
-                )
-                .addTo(map);
-
-            // Castle Course St Andrews
+            // Day 5: Castle Course (all three) — Friday, en route into Fife
             var castleCourse = L.marker([56.3290, -2.7720], { icon: golfIcon })
                 .bindPopup(
-                    "<b>St Andrews Castle Course</b> ✅ CONFIRMED<br>Day 5 — Friday July 3: 3:00 PM<br>Kinkell Braes | David McLay Kidd design 2008<br>Dramatic clifftop links | North Sea views",
+                    "<b>St Andrews Castle Course</b> ⛳ Round 4<br>Friday July 3: 3:00 PM | All three of us<br>Kinkell Braes | David McLay Kidd design 2008<br>Dramatic clifftop links | North Sea views",
                 )
                 .addTo(map);
 
-            // St Andrews Cathedral
-            var stAndrewsCathedral = L.marker([56.341, -2.7915], { icon: castleIcon })
+            // Night 4 — Fri Jul 3: The Inn at Kingsbarns
+            var kingsbarnsInn = L.marker([56.3033, -2.6297], { icon: hotelIcon })
                 .bindPopup(
-                    "<b>St Andrews Cathedral</b><br>Day 6 — Saturday July 4: Afternoon sightseeing<br>Independence Day in St Andrews!",
+                    "<b>The Inn at Kingsbarns</b> 🏨 Night 4<br>Friday July 3 | A pub with rooms in Kingsbarns village<br>Minutes from the first tee — perfect for a dawn start<br>stayinapub.co.uk",
                 )
                 .addTo(map);
 
-            // Anstruther Fish Bar — East Neuk
-            var anstruther = L.marker([56.2226, -2.6997], { icon: castleIcon })
+            // Kingsbarns Golf Links — played twice (Sat the twins, Mon all three)
+            var kingsbarns = L.marker([56.2931, -2.6389], { icon: golfIcon })
                 .bindPopup(
-                    "<b>Anstruther Fish Bar</b><br>Best fish & chips in Scotland<br>East Neuk — worth the detour",
+                    "<b>Kingsbarns Golf Links</b> ⛳ Rounds 5 &amp; 7<br>Sat Jul 4, 7:30 AM (Richard &amp; Max)<br>Mon Jul 6 (all three — Dad + caddy Gary)<br>Kyle Phillips design, 2000 | Two miles of coastline",
                 )
                 .addTo(map);
 
-            // Day 7 — Sunday July 5: Dumbarnie Links
+            // Nights 5–7 — Sat Jul 4, Sun Jul 5, Mon Jul 6: St Andrews
+            var stAndrewsApt = L.marker([56.3398, -2.7967], { icon: hotelIcon })
+                .bindPopup(
+                    "<b>Georgian Sandstone Apartment, St Andrews</b><br>3 nights — Sat Jul 4, Sun Jul 5, Mon Jul 6<br>3 bedrooms | Market Street 30 seconds<br>Extended when the Highlands leg was dropped",
+                )
+                .addTo(map);
+
+            // The Dunvegan — Independence Day drinks with Faheem
+            var dunvegan = L.marker([56.3402, -2.7972], { icon: castleIcon })
+                .bindPopup(
+                    "<b>The Dunvegan</b> 🍺 Saturday July 4<br>Celebrated golfers' pub near the 18th<br>Independence Day drinks with Max's friend Faheem<br>Then we walked the Old Course",
+                )
+                .addTo(map);
+
+            // Old Course — walked it (lost both ballots)
+            var oldCourse = L.marker([56.3421, -2.8020], { icon: golfIcon })
+                .bindPopup(
+                    "<b>St Andrews Old Course</b> 🎲<br>Lost both ballots — no tee time<br>So we walked it on foot: Swilcan Bridge, the 18th<br>Home of golf since 1552 | Closed to golf on Sundays",
+                )
+                .addTo(map);
+
+            // The Himalayas — Sunday afternoon putting green
+            var himalayas = L.marker([56.3436, -2.8025], { icon: golfIcon })
+                .bindPopup(
+                    "<b>The Himalayas</b> ⛳ Sunday July 5<br>The Ladies' Putting Club (1867)<br>18-hole putting green of rolling humps beside the Old Course<br>Open to all — huge fun",
+                )
+                .addTo(map);
+
+            // Day 7 — Sunday July 5: Dumbarnie Links (all three)
             var dumbarnie = L.marker([56.1979, -2.9645], { icon: golfIcon })
                 .bindPopup(
-                    "<b>Dumbarnie Links</b> ✅ CONFIRMED<br>Day 7 — Sunday July 5: 08:50 AM | Ref: 59655<br>A917, Leven, Fife KY8 6JQ<br>Contact: Jackie Wright | +44 (0)1334 845 945<br>Clive Clark design, 2020 | Drive to Nairn after lunch",
+                    "<b>Dumbarnie Links</b> ⛳ Round 6<br>Sunday July 5: 08:50 AM | Ref: 59655 | All three of us<br>A917, Leven, Fife KY8 6JQ<br>Clive Clark design, 2020 | Most expensive round of the trip",
                 )
                 .addTo(map);
 
-            // Nights 7–8 — July 5, 6: Nairn
-            var nairnCottage = L.marker([57.5813, -3.8756], { icon: hotelIcon })
+            // Day 8 — Monday July 6: The Golf House Club, Elie (all three)
+            var elie = L.marker([56.1893, -2.8230], { icon: golfIcon })
                 .bindPopup(
-                    "<b>51 Society Street, Nairn</b> ✅ CONFIRMED — both nights<br>Nights 7–8 — Sun Jul 5 & Mon Jul 6 | Checkout Tue Jul 7 6:30 AM<br>Stone fisherman's cottage | Private walled garden<br>200 yards from East Beach | 2 min from Nairn Dunbar Golf Club",
+                    "<b>The Golf House Club, Elie</b> ⛳ Round 8<br>Monday July 6: last tee of the day | All three of us<br>Old Tom Morris links | The starter's submarine periscope<br>The perfect place to finish",
                 )
                 .addTo(map);
 
-            // Day 8 — Monday July 6: Nairn Dunbar Golf Club
-            var nairnGolf = L.marker([57.5925, -3.8656], { icon: golfIcon })
+            // Anstruther Fish Bar — East Neuk, on the road to Elie
+            var anstruther = L.marker([56.2226, -2.6997], { icon: castleIcon })
                 .bindPopup(
-                    "<b>Nairn Dunbar Golf Club</b> ✅ CONFIRMED &amp; PAID<br>Day 8 — Monday July 6: 09:00 AM | Ref: 82242 | £420.00 paid<br>Lochloy Road, Nairn IV12 5AE | office@nairndunbar.com<br>Championship links, par 72, 6,765 yards | Slope 135 | 2 min from cottage",
+                    "<b>Anstruther Fish Bar</b> 🐟<br>Some of the best fish &amp; chips in Scotland<br>East Neuk — right on the road down to Elie",
                 )
                 .addTo(map);
 
-            // Day 8 — Monday July 6: Glenfarclas Distillery
-            var glenfarclas = L.marker([57.3786, -3.3319], { icon: whiskyIcon })
-                .bindPopup(
-                    "<b>Glenfarclas Distillery</b><br>Day 8 — Monday July 6: Optional afternoon activity<br>Ballindalloch, Banffshire AB37 9BD<br>Family owned since 1836 | +44 (0)1807 500345",
-                )
-                .addTo(map);
-
-            // Cawdor Castle — optional Day 8
-            var cawdor = L.marker([57.5122, -3.9777], { icon: castleIcon })
-                .bindPopup(
-                    "<b>Cawdor Castle</b><br>Day 8 afternoon option | ~15 min from Nairn<br>Shakespeare's Macbeth | Family home, beautiful gardens",
-                )
-                .addTo(map);
-
-            // Draw the route: Edinburgh → Dunbar → Gullane → St Andrews → Dumbarnie → Nairn → Edinburgh
+            // Draw the route: Edinburgh → Dunbar → Gullane → Castle Course → Kingsbarns → St Andrews → Elie → Edinburgh
             var route = [
                 [55.9533, -3.1883], // Night 1: Edinburgh (arrival Tue Jun 30)
-                [56.0024, -2.5127], // Day 3: Dunbar Golf (Wed Jul 1, en route)
-                [56.037, -2.8296],  // Nights 2–4: Gullane (Wed Jul 1 – Fri Jul 3)
-                [56.3398, -2.7967], // Night 5: St Andrews (Sat Jul 4)
-                [56.1979, -2.9645], // Day 7: Dumbarnie Links (Sun Jul 5 morning)
-                [57.5813, -3.8756], // Nights 7–8: Nairn (Sun Jul 5 – Mon Jul 6)
+                [56.0024, -2.5127], // Day 3: Dunbar (Wed Jul 1)
+                [56.037, -2.8296],  // Nights 2–3: Gullane (Wed–Thu)
+                [56.3290, -2.7720], // Day 5: Castle Course (Fri, into Fife)
+                [56.3033, -2.6297], // Night 4: The Inn at Kingsbarns (Fri)
+                [56.3398, -2.7967], // Nights 5–7: St Andrews (Sat–Mon)
+                [56.1893, -2.8230], // Day 8: Elie (Mon)
                 [55.9533, -3.1883], // Day 9: Edinburgh Airport (departure Tue Jul 7)
             ];
 
